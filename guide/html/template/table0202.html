@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>- 샘플링 | WELCOMELOAN PUBLISHING GUIDE -</title>
+<link rel="stylesheet" type="text/css" href="/guide/com/css/guide.css" />
+<script type="text/javascript" src="../../com/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/front/com/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../../com/js/d_jquery.js"></script>
+<script type="text/javascript" src="../../com/js/d_menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/pb/fr/com/css/cm.import.css"></script>
+</head>
+
+<body>
+
+<div title="스킵메뉴" class="skipMenu">
+	<a href="#wgHeader">주 메뉴 바로가기</a>
+    <a href="#wgContainer">본문 내용 바로가기</a>
+</div>
+<hr />
+<div id="wrapGuide">
+	<!-- HEADER s --><script type="text/javascript">TopArea();gnbBox_init(3);</script><!-- HEADER e //-->
+    <hr />
+    <div id="wgContainer" class="layout2 clfix">
+    	<!-- LNB s --><script type="text/javascript">LeftMenuSAM();lnb_menu('2','2');</script><!-- LNB e //-->
+        <div id="wgContent" class="clfix">
+        	<div class="titArea">
+            	<h1>입력필드 유형</h1>
+                <!--<p><script type="text/javascript">map.print(1,1,1);</script></p> -->
+            </div>
+
+			<!-- //여기서부터 내용 S -->
+            <div id="g_container" class="wgDsc">
+				<p class="status"><strong>입력필드1</strong></p>
+            	<form action="" method="post">
+					<fieldset>
+						<legend>입력 필드</legend>
+						<table class="table_form" summary="기획확인 요망">
+							<caption>기획확인 요망</caption>
+							<colgroup>
+								<col width="20%" />
+								<col width="80%" />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th scope="row">
+										<span class="req"><label for="personName">이름</label><strong>필수입력</strong></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<input type="text" id="personName" />
+										</div>
+									</td>
+								</tr>
+								
+								<tr>
+									<th scope="row">
+										<span class="req"><label for="tel1">핸드폰</label><strong>필수입력</strong></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<select id="tel1" class="tel_select" title="휴대전화번호 첫번째자리 선택하세요" style="width:118px">
+												<option value="">010</option>
+												<option value="">011</option>
+												<option value="">016</option>
+											</select>
+									- <input type="text" title="휴대전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="휴대전화번호 뒷자리를 입력하세요" style="width:148px" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span class="req"><label for="eMail1">이메일</label><strong>필수입력</strong></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<input type="text" id="eMail1" title="이메일 주소 아이디를 입력하세요" style="width:198px"/> &#64;
+											<select title="이메일 주소를 선택하세요" style="width:198px">
+												<option value="">선택하세요</option>
+												<option value="">선택하세요</option>
+											</select>
+											<input type="text" title="이메일 주소를 입력하세요" style="width:198px" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="subJect">제목</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<input type="text" id="subJect" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="th_txt" scope="row">
+										<span><label for="cont1">내용</label><br />
+										<span class="count_ch">(<strong>0</strong>/2000자)</span></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<textarea id="cont1" title="내용을 입력하세요" rows="10" cols="100"></textarea>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</fieldset>
+				</form>
+				
+				
+					
+					
+					<!-- //여기서부터 내용 E -->
+<!-- //여기서부터 코드 S -->
+<div id="cordBox1" class="cordBox type01 tag">
+	<xmp>
+<form action="" method="post">
+	<fieldset>
+		<legend>입력 필드</legend>
+		<table class="table_form" summary="기획확인 요망">
+			<caption>기획확인 요망</caption>
+			<colgroup>
+				<col width="20%" />
+				<col width="80%" />
+			</colgroup>
+			<tbody>
+				<tr>
+					<th scope="row">
+						<span class="req"><label for="personName">이름</label><strong>필수입력</strong></span>
+					</th>
+					<td>
+						<div class="td_cont">
+							<input type="text" id="personName" />
+						</div>
+					</td>
+				</tr>
+				
+				<tr>
+					<th scope="row">
+						<span class="req"><label for="tel1">핸드폰</label><strong>필수입력</strong></span>
+					</th>
+					<td>
+						<div class="td_cont">
+							<select id="tel1" title="휴대전화번호 첫번째자리 선택하세요" style="width:118px">
+								<option value="">010</option>
+								<option value="">011</option>
+								<option value="">016</option>
+							</select>
+					- <input type="text" title="휴대전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="휴대전화번호 뒷자리를 입력하세요" style="width:148px" />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						<span class="req"><label for="eMail1">이메일</label><strong>필수입력</strong></span>
+					</th>
+					<td>
+						<div class="td_cont">
+							<input type="text" id="eMail1" title="이메일 주소 아이디를 입력하세요" style="width:198px"/> &#64;
+							<select title="이메일 주소를 선택하세요" style="width:198px">
+								<option value="">선택하세요</option>
+								<option value="">선택하세요</option>
+							</select>
+							<input type="text" title="이메일 주소를 입력하세요" style="width:198px" />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row">
+						<span><label for="subJect">제목</label></span>
+					</th>
+					<td>
+						<div class="td_cont">
+							<input type="text" id="subJect" />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<th class="th_txt" scope="row">
+						<span><label for="cont1">내용</label><br />
+						<span class="count_ch">(<strong>0</strong>/2000자)</span></span>
+					</th>
+					<td>
+						<div class="td_cont">
+							<textarea id="cont1" title="내용을 입력하세요" rows="10" cols="100"></textarea>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</fieldset>
+</form>
+	</xmp>
+</div>
+<!-- //여기서부터 코드 E -->
+
+
+              <!--// g_content div -->
+              </div>
+              <!--// g_container div -->
+			  <!-- //여기서부터 내용 S -->
+            <div id="g_container" class="wgDsc">
+				<p class="status"><strong>입력필드2</strong></p>
+            	<form action="" method="post">
+					<fieldset>
+						<legend>입력 필드</legend>
+						<table class="table_form thGray" summary="기획확인 요망">
+							<caption>기획확인 요망</caption>
+							<colgroup>
+								<col width="20%" />
+								<col width="80%" />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th scope="row">
+										<span>이름</span>
+									</th>
+									<td>
+										<div class="td_cont">
+											홍길동
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span>
+											주민등록번호
+										</span>
+									</th>
+									<td>
+										<div class="td_cont">
+										<span>770707-*******</span>
+										</div>
+									</td>
+								</tr>
+								
+								<tr>
+									<th scope="row">
+										<span><label for="tel1">휴대폰번호</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<select id="tel1" class="tel_select" title="휴대전화번호 첫번째자리 선택하세요" style="width:120px">
+												<option value="">010</option>
+												<option value="">011</option>
+												<option value="">016</option>
+											</select>
+									- <input type="text" title="휴대전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="휴대전화번호 뒷자리를 입력하세요" style="width:148px" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="address1">자택주소</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+										<p>
+							<input id="address1" type="text" title="우편번호 첫번째자리 입력" style="width:118px"  /> - 
+							<input type="text" title="우편번호 두번째자리 입력" style="width:118px"  />
+							<a href="#" class="btn_set btnGy">우편번호</a>
+						</p>
+										<p>
+											<input type="text" title="자택주소 입력" style="width:450px"  />
+										</p>
+										<p>
+											<input type="text" title="상세주소 입력" style="width:450px"  />
+										</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="tel2">자택전화번호</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<select id="tel2" class="tel_select" title="자택전화번호 첫번째자리 선택하세요" style="width:120px">
+												<option value="">02</option>
+												
+											</select>
+									- <input type="text" title="자택전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="자택전화번호 뒷자리를 입력하세요" style="width:148px" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="officeName">직장명</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<input id="officeName" type="text" title="직장명 입력" style="width:450px"  />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="address2">직장주소</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+										<p>
+							<input id="address2" type="text" title="우편번호 첫번째자리 입력" style="width:118px"  /> - 
+							<input type="text" title="우편번호 두번째자리 입력" style="width:118px"  />
+							<a href="#" class="btn_set btnGy">우편번호</a>
+						</p>
+										<p>
+											<input type="text" title="직장주소 입력" style="width:450px"  />
+										</p>
+										<p>
+											<input type="text" title="상세주소 입력" style="width:450px"  />
+										</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="tel3">직장전화번호</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<select id="tel3" class="tel_select" title="직장전화번호 첫번째자리 선택하세요" style="width:120px">
+												<option value="">070</option>
+												
+											</select>
+									- <input type="text" title="직장전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="직장전화번호 뒷자리를 입력하세요" style="width:148px" />
+										</div>
+									</td>
+								</tr>
+
+								
+							</tbody>
+						</table>
+					</fieldset>
+				</form>
+				
+				
+					
+					
+					<!-- //여기서부터 내용 E -->
+<!-- //여기서부터 코드 S -->
+<div id="cordBox1" class="cordBox type01 tag">
+	<xmp>
+<form action="" method="post">
+					<fieldset>
+						<legend>입력 필드</legend>
+						<table class="table_form thGray" summary="기획확인 요망">
+							<caption>기획확인 요망</caption>
+							<colgroup>
+								<col width="20%" />
+								<col width="80%" />
+							</colgroup>
+							<tbody>
+								<tr>
+									<th scope="row">
+										<span>이름</span>
+									</th>
+									<td>
+										<div class="td_cont">
+											홍길동
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span>
+											주민등록번호
+										</span>
+									</th>
+									<td>
+										<div class="td_cont">
+										<span>770707-*******</span>
+										</div>
+									</td>
+								</tr>
+								
+								<tr>
+									<th scope="row">
+										<span><label for="tel1">휴대폰번호</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<select id="tel1" class="tel_select" title="휴대전화번호 첫번째자리 선택하세요" style="width:120px">
+												<option value="">010</option>
+												<option value="">011</option>
+												<option value="">016</option>
+											</select>
+									- <input type="text" title="휴대전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="휴대전화번호 뒷자리를 입력하세요" style="width:148px" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="address1">자택주소</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+										<p>
+							<input id="address1" type="text" title="우편번호 첫번째자리 입력" style="width:118px"  /> - 
+							<input type="text" title="우편번호 두번째자리 입력" style="width:118px"  />
+							<a href="#" class="btn_set btnGy">우편번호</a>
+						</p>
+										<p>
+											<input type="text" title="자택주소 입력" style="width:450px"  />
+										</p>
+										<p>
+											<input type="text" title="상세주소 입력" style="width:450px"  />
+										</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="tel2">자택전화번호</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<select id="tel2" class="tel_select" title="자택전화번호 첫번째자리 선택하세요" style="width:120px">
+												<option value="">02</option>
+												
+											</select>
+									- <input type="text" title="자택전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="자택전화번호 뒷자리를 입력하세요" style="width:148px" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="officeName">직장명</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<input id="officeName" type="text" title="직장명 입력" style="width:450px"  />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="address2">직장주소</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+										<p>
+							<input id="address2" type="text" title="우편번호 첫번째자리 입력" style="width:118px"  /> - 
+							<input type="text" title="우편번호 두번째자리 입력" style="width:118px"  />
+							<a href="#" class="btn_set btnGy">우편번호</a>
+						</p>
+										<p>
+											<input type="text" title="직장주소 입력" style="width:450px"  />
+										</p>
+										<p>
+											<input type="text" title="상세주소 입력" style="width:450px"  />
+										</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">
+										<span><label for="tel3">직장전화번호</label></span>
+									</th>
+									<td>
+										<div class="td_cont">
+											<select id="tel3" class="tel_select" title="직장전화번호 첫번째자리 선택하세요" style="width:120px">
+												<option value="">070</option>
+												
+											</select>
+									- <input type="text" title="직장전화번호 중간자리를 입력하세요" style="width:148px" /> - <input type="text" title="직장전화번호 뒷자리를 입력하세요" style="width:148px" />
+										</div>
+									</td>
+								</tr>
+
+								
+							</tbody>
+						</table>
+					</fieldset>
+				</form>
+	</xmp>
+</div>
+<!-- //여기서부터 코드 E -->
+
+
+              <!--// g_content div -->
+              </div>
+              <!--// g_container div -->
+        </div><!--// wgContent div -->
+
+
+        
+    </div><!--// wgContainer div  -->
+    
+</div><!--// wrapGuide div -->
+</body>
+</html>

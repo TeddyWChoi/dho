@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>- GUIDE | 7-ELEVEN PUBLISHING GUIDE -</title>
+<link rel="stylesheet" type="text/css" href="../../com/css/guide.css" />
+<script type="text/javascript" src="../../com/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../com/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../../com/js/d_jquery.js"></script>
+<script type="text/javascript" src="../../com/js/d_menu.js"></script>
+</head>
+
+<body>
+
+<div title="스킵메뉴" class="skipMenu">
+	<a href="#wgHeader">주 메뉴 바로가기</a>
+    <a href="#wgContainer">본문 내용 바로가기</a>
+</div>
+<hr />
+<div id="wrapGuide">
+	<!-- HEADER s --><script type="text/javascript">TopArea();gnbBox_init(1);</script><!-- HEADER e //-->
+    <hr />
+    <div id="wgContainer" class="layout2 clfix">
+    	<!-- LNB s --><script type="text/javascript">LeftMenuRULE();lnb_menu('3','6');</script><!-- LNB e //-->
+        <div id="wgContent" class="clfix">
+        	<div class="titArea">
+            	<h1>주석사용</h1>
+                <!--<p><script type="text/javascript">map.print(1,1,1);</script></p> -->
+            </div>
+            
+            <div class="wgDsc">
+            	<!-- 여기서부터 내용 s -->
+                
+                <div class="section cordView">
+                	<h2>■ CSS 내 주석</h2>
+                    <h3>- CSS 페이지 기본주석</h3>
+                    <div class="dscBox type01">
+                    	
+                        <xmp>
+/************************************************************/
+/*	Name: PROJECT NAME   : 프로젝트명(내용고정)
+/*	PART: RESET STYLE    : 해당메뉴 표시 (ex.메인의 경우 MAIN STYLE)
+/*	Version: 1.0         : 내용고정
+/*	Author: 최웅, 윤정환 [애드캡슐 퍼블리싱팀] 
+/************************************************************/
+                        </xmp>
+                        <div class="btn btnL">
+                            <a href="#" onclick="textCopy(1)" class="btn_copy"><strong>code copy</strong></a>
+                        </div>
+                    </div>
+                    <div id="cordBox1" class="cordBox type01 hide">
+                    	<xmp>
+/****************************************/
+/*	Name: LOTTE HOTEL
+/*	PART: RESET STYLE
+/*	Version: 1.0
+/*	Author: 최웅, 윤정환 [애드캡슐 퍼블리싱팀] 
+/****************************************/
+                        </xmp>
+                    </div>
+                    <h3>- CSS 페이지내 수정/삭제시 주석</h3>
+                    <div class="dscBox type01">                    	
+                        <xmp>
+/* 2013.01.01(수정/삭제일자) | 홍길동(수정/삭제자) | 디자인 변경으로 인한 기존 칼라값 변경(수정/삭제사유) */
+                        </xmp>
+                        <div class="btn btnL">
+                            <a href="#" onclick="textCopy(2)" class="btn_copy"><strong>code copy</strong></a>
+                        </div>
+                    </div>
+                    <div id="cordBox2" class="cordBox type01 hide">
+                    	<xmp>
+/* 2013.. | 수정/삭제자 | 수정/삭제사유 */
+                        </xmp>
+                    </div>                    
+                    
+                    <h2>■ HTML 내 주석</h2>
+                    <h3>- 마크업을 위한 주석사용</h3>
+                    <div class="dscBox type01">
+                    	
+                        <xmp>
+<!-- 예제 안내 시작 -->
+<div id="test">
+	<div class="testDsc">예제안내</div><!--// div testDsc end -->
+</div><!--// div test end -->
+<!--// 예제 안내 끝 -->
+</xmp>
+                    </div>
+                    <h3>- 개발이나 퍼블리셔에게 내용 전달을 위한 주석사용</h3>
+                    <div class="dscBox type01">
+                    	
+                        <xmp>
+<!-- D : 본 주석은 개발자를 위한 주석으로 개발 참고 후 삭제바랍니다.
+		 개발에 전달해야되는 내용을 상세히 기재
+         ex) 첫번째 li에 클래스 first 추가 -> <li class="first">
+-->
+</xmp>
+                        <div class="btn btnL">
+                            <a href="#" onclick="textCopy(3)" class="btn_copy"><strong>code copy</strong></a>
+                        </div>
+                    </div>
+                    <div id="cordBox3" class="cordBox type01 hide">
+                    	<xmp>
+<!-- D : 본 주석은 개발자를 위한 주석으로 개발 참고 후 삭제바랍니다.
+		 개발에 전달해야되는 내용을 상세히 기재
+         ex) 첫번째 li에 클래스 first 추가 -> <li class="first">
+-->
+</xmp>
+                    </div>
+                    
+                    <div class="dscBox type01">
+                        <xmp>
+<!-- P : 본 주석은 퍼블리셔를 위한 주석으로 코딩작업 참고 후 삭제바랍니다.
+		 퍼블리셔들에게 전달할 내용을 상세히 기재
+         ex) 공통 샘플링 dl요소 확인 -> LOTTE HOTEL.css LINE.25 참고바람
+-->
+</xmp>
+                        <div class="btn btnL">
+                            <a href="#" onclick="textCopy(4)" class="btn_copy"><strong>code copy</strong></a>
+                        </div>
+                    </div>
+                    <div id="cordBox4" class="cordBox type01 hide">
+                    	<xmp>
+<!-- P : 본 주석은 퍼블리셔를 위한 주석으로 코딩작업 참고 후 삭제바랍니다.
+		 퍼블리셔들에게 전달할 내용을 상세히 기재
+         ex) 공통 샘플링 dl요소 확인 -> LOTTE HOTEL.css LINE.25 참고바람
+-->
+</xmp>
+                    </div>
+                </div><!--// section div -->
+                               
+                <!-- 여기서부터 내용 e -->
+            </div><!--// wgDsc div -->
+        </div><!--// wgContent div -->
+        
+    </div><!--// wgContainer div  -->
+    
+</div><!--// wrapGuide div -->
+</body>
+</html>

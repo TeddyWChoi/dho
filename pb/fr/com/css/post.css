@@ -1,0 +1,119 @@
+
+/* CSS Document */
+body, table, tr, td, p, select, textarea, div, input{
+	font-family: Verdana, Arial, Helvetica, sans-serif, Dotum, Gulim;
+ 	font-size: 11px;
+	line-height: 18px;
+ 	color:#4B4B4B;
+}
+
+a:link			{ font-size: 11px; color: #6293B0;  text-decoration: underline;}
+a:visited		{ font-size: 11px; color: #898989;  text-decoration: none;}
+a:hover			{ font-size: 11px; color: #8B5BAC;  text-decoration: underline;}
+a:active		{ font-size: 11px; color: #8B5BAC;  text-decoration: none;}
+
+.listHeadTitle { border: 1px solid #cccccc; background-color: #f5f5f5; padding:4px 4px 2px 4px; }
+
+
+
+
+
+/* form tag */
+.input_textfield {
+	height: 22px;
+	padding: 2px 0px 0px 3px;
+	border: 1px solid #DCD5C2;
+	font-family: "Arial", "±¼¸²";
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	margin: 0px;
+} 
+
+.input { border: 1px solid #cccccc; background-color: #f3f3f3 }
+.submit { border:1px solid #cccccc; background-color: white; padding:1px 1px 0px 1px; }
+
+.selec {font-family:µ¸¿ò;font-size:9pt;color:#535353;background-color:#F5F5F5;}
+.inp {border:1px solid #4d94bd;font-family:µ¸¿ò;font-size:11px;color:#013066;background-color: #FFFFFF}
+.tarea {border:1px solid #9A9A9A;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#535353;scrollbar-3dlight-color:#9A9A9A;scrollbar-arrow-color:#9A9A9A;scrollbar-base-color:#FFFFFF;scrollbar-darkshadow-color:#9A9A9A;scrollbar-face-color:#FFFFFF;scrollbar-highlight-color:#FFFFFF;scrollbar-shadow-color:#FFFFFF}
+
+
+/* table tag */
+
+.s_tit {
+	font-family: Verdana, Arial, Helvetica, sans-serif, Dotum, Gulim;
+	font-size: 11px;
+	font-weight: bold;
+	color: #AB2202;
+}
+
+.button {
+	font-family: Arial, Helvetica, sans-serif, Gulim, Dotum,;
+	color: #6C6C6C;
+	font-size: 10px;
+	padding-top: 2px;
+}
+
+.button a:link {text-decoration: none ; color: #000000;}
+.button a:visited {text-decoration: none ; color: #000000;}
+.button a:active {text-decoration: none ; color: #006699;}
+.button a:hover {text-decoration: none ; color: #006699;}
+
+
+.table01 {
+	background-color: #FFC48F;
+	height: 1px;
+}
+.table01_2p {
+	background-color: #FFA975;
+	height: 2px;
+	line-height: 1px;
+}
+
+.table01_tit {
+	background-color: #FFF6ED;
+	font-weight: bold;
+	color: #4B4B4B;
+	align: center;
+	padding-left: 5px;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.table01_txt {
+	background-color: #FFFFFF;
+	color: #4B4B4B;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-size: 11px;
+}
+
+.table01_line28 {
+	background-image: url(l_img/ta_tit_line.gif);
+}
+
+.txt1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #006699;
+}
+.txt2 {
+}
+
+/* empty tag */
+
+.empty_45 { height: 45px; }
+.empty_35 { height: 35px; }
+.empty_30 { height: 30px; }
+.empty_25 { height: 25px; }
+.empty_20 { height: 20px; }
+.empty_15 { height: 15px; }
+.empty_10 { height: 10px; }
+.empty_7 {  height: 7px; }
+.empty_5 { height: 5px; }

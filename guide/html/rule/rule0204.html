@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>- GUIDE | 7-ELEVEN PUBLISHING GUIDE -</title>
+<link rel="stylesheet" type="text/css" href="../../com/css/guide.css" />
+<script type="text/javascript" src="../../com/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../com/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../../com/js/d_jquery.js"></script>
+<script type="text/javascript" src="../../com/js/d_menu.js"></script>
+</head>
+
+<body>
+
+<div title="스킵메뉴" class="skipMenu">
+	<a href="#wgHeader">주 메뉴 바로가기</a>
+    <a href="#wgContainer">본문 내용 바로가기</a>
+</div>
+<hr />
+<div id="wrapGuide">
+	<!-- HEADER s --><script type="text/javascript">TopArea();gnbBox_init(1);</script><!-- HEADER e //-->
+    <hr />
+    <div id="wgContainer" class="layout2 clfix">
+    	<!-- LNB s --><script type="text/javascript">LeftMenuRULE();lnb_menu('3','4');</script><!-- LNB e //-->
+        <div id="wgContent" class="clfix">
+        	<div class="titArea">
+            	<h1>CSS규칙</h1>
+                <!--<p><script type="text/javascript">map.print(1,1,1);</script></p> -->
+            </div>
+            
+            <div class="wgDsc">
+            	<!-- 여기서부터 내용 s -->                
+                <div class="section cordView">
+                	<h2>1. 파일경로</h2>
+                    <div class="dscBox type01">
+                    	<h3>■ 절대경로사용</h3>
+                        <ul class="lstDsc">
+                        	<li>img 경로<strong>[src="/img/이미지.gif"]</strong></li>
+                            <li>css 경로<strong class="pointPK">[src="/com/css/스타일.css"]</strong></li>
+                            <li>js 경로<strong>[src="/com/js/스크립트.js"]</strong></li>
+                        </ul>
+                    </div>
+                </div><!--// section div -->
+                
+                <div class="section cordView">
+                	<h2>2. 문서내 css 사용</h2>
+                    <h3>■ import css</h3>
+                    <p class="lstDsc">css 상세구조는 <a href="rule0301.html#ruleCss" class="pointRe"><strong>폴더구조</strong></a> 참고</p>
+                    <!--<div class="btn btnL">
+                        <a href="#" onclick="textCopy(1)" class="btn_copy"><strong>code copy</strong></a>
+                    </div> -->
+                    <div class="dscBox type01">                        
+                        <xmp>
+@import url ("cm.import.css");    -  기본 import css(cm.reset.css / cm.layout.css / cm.k7.css 기본포함.
+@import url ("cm.reset.css");     -  문서 초기화 스타일
+@import url ("cm.layout.css");    -  공통 레이아웃 (ex. 타입별 레이아웃구조[1단 레이아웃, 2단 레이아웃 등], 뎁스별 타이틀 체계, gnb 등)
+@import url ("cm.k7.css");        -  공통 스타일 (ex. 버튼, 테이블, 게시판, 기본 블릿리스트 등)</xmp>
+                    </div>
+                    <!--<div id="cordBox1" class="tag hide">
+                    	<xmp>
+@import url ("cm.import.ko.css");
+@import url ("cm.reset.css");
+@import url ("cm.layout.css");
+@import url ("cm.lottehotel.css");</xmp>
+                    </div> -->
+                    
+                    <h3>■ CSS 기본사용 규칙</h3>
+                    <div class="dscBox type01"> 
+						<ul class="lstDsc">							
+                            <li>css 는 해당 카테고리의 것만 사용하며, <strong>공통 css파일을 해당 카테고리 css 페이지 내에 import 시켜서 사용</strong>한다.</li>
+                            <li>페이지내 style 사용은 금하며, <strong>예외적으로 input 또는 팝업(레이어팝업 포함) 사이즈 지정이 필요한 경우 style="width" 사용</strong>할 수 있다.</li>
+                            <li>문서내 margin/padding 사용이 필요할 경우 해당 요소의 클래스내에서 처리하며, 아래 예시와 같이 <strong>inner style 또는 공통클래스(ex. marT15, padL20 등)를 만들어 사용하지 않는다</strong><br />
+                            	<strong class="pointGn">ex) style="margin-top:20px; padding-bottom:15px;" 또는 class="marT20 padL20" 등은 사용금지</strong>
+                            </li>
+                            <li>공통으로 사용되는 css 파일내의 스타일 선언은 <strong>상속을 최소화</strong> 하여 다른 채널에서 사용하게 되는경우나 위치변동 사항이 생겨도 쉽게 이식할수 있도록 함.</li>
+							<li>HTML 페이지내 최상위 <strong>div class="최상위 클래스로 약속된 값" <!-- id값이 brand일때 체인페이지의 경우 class="chian" 포함 --></strong>으로 함<br />
+                            <!-- <strong class="pointGn">ex) 글로벌 사이트 경우 〈div id="global"〉</strong><br />
+                            <strong class="pointGn">ex) 브랜드 사이트 경우 〈div id="brand"〉</strong><br />
+                            <strong class="pointGn">ex) 체인 사이트 경우 〈div id="brand" class="chain"〉</strong> -->
+                            </li>
+                            <li>모든 속성은 영문소문자로만 작성하며, 숫자가 맨 처음 올수 없다.</li>
+                            <li>속성값으로 한글폰트 및 이미지 URL 표기시 작은 따옴표{''}를 사용하지 않는다.<br />
+                            	<strong class="pointGn">ex. font-family:<strong>맑은고딕, 돋움</strong>; background:<strong>url(/front/img/test.gif)</strong></strong>
+                            </li>
+                            <li>CSS 코드 작성시 들여쓰기를 하지 않는다.</li>
+                            <li>빈줄사용 : 의미있는 객체를 구분하기 위하여 코드 그룹간 1줄씩 빈줄을 넣을수 있다.<br />단. 빈줄의 간격은  1줄을 초과하지 않게 한다.</li>
+                            <li><strong>속성 마지막에는 반드시 (;) 선언.</strong></li>
+						</ul>
+                    </div>
+                </div><!--// section div -->
+                
+                <div class="section cordView">
+                	<h2>3. 네임규칙</h2>
+                    <h3>■ id/class 네이밍룰</h3>
+                    <div class="dscBox type01">
+                        <ul class="lstDsc">
+                        	<li>id 네이밍룰 : <strong>카멜표기법 사용</strong> (단어와 단어의 사이를 대문자로 구분)<br />
+                            	<strong class="pointGn">ex. #subContainer #tabFaqList</strong>
+                            </li>
+                            <li>class 네이밍룰 : <strong>언더스코어(_) 표기법</strong> (단어와 단어의 사이를 _로 구분)<br />
+                            	<strong class="pointGn">ex. .btn_reg .btn_edit</strong></li>
+                            <li><span class="pointPK">class 중 <strong>정렬 또는 칼라를 표현하는 네이밍</strong>의 경우 예외적으로 카멜표기법 사용</span><br />
+                            	<strong class="pointGn">ex. alL, alC, pointBl</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--// section div -->
+                
+                <div class="section cordView">
+                	<h2>4. 어트리뷰트 및 속성 선언순서</h2>
+                    <h3>■ 〈link〉</h3>
+                    <div class="dscBox type01">
+                        <ul class="lstDsc">
+                        	<li>rel, type, href 순서로 애트리뷰트를 선언한다<br />
+                            	<strong class="pointGn">ex. 〈link <strong>rel</strong>="stylesheet" <strong>type</strong>="text/css" <strong>href</strong>="css/import.css"〉</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>■ CSS 파일 내 속성선언 순서</h3>
+                    <div class="btn btnL">
+                        <a href="#" onclick="textCopy(2)" class="btn_copy"><strong>code copy</strong></a>
+                    </div>
+                    <div class="dscBox type01">
+                        <div id="cordBox2" class="tag">
+                            <xmp>display:; visibility:; float:; position:; width:; height:; margin:; padding:; overflow:;
+font-family:; font-size:; font-weight:; font-style:; line-height:; text-indent:; text-align:; border:; background:#color url() 0 0 repeat; </xmp>
+                        </div>
+                    </div>
+                    <table cellpadding="0" cellspacing="0" width="100%" class="mlist" summary="예약어 안내">
+                        <caption>예약어 사용</caption>
+                        <colgroup>
+                            <col width="5%" />
+                            <col width="15%" />
+                            <col width="25%" />
+                            <col width="*" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">순서</th>
+                                <th scope="col">의미</th>
+                                <th scope="col">대표되는 속성(그룹)</th>
+                                <th scope="col">비고</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td class="itemtit01"><strong>표시</strong></td>
+                                <td class="itemtit02">display, visibility</td>
+
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td class="itemtit01"><strong>흐름</strong></td>
+                                <td class="itemtit02">float</td>
+                                <td>가상선택자 :after를 이용하여 해제 또는 <br />가상선택자 사용이 불가피 할 경우 
+								reset.css에 정의되어 있는 clfix를 이용하여 float 해제 사용</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td class="itemtit01"><strong>위치</strong></td>
+                                <td class="itemtit02">position</td>
+                                <td>z-index 사용</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td class="itemtit01"><strong>크기</strong></td>
+                                <td class="itemtit02">width / height</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td class="itemtit01"><strong>간격</strong></td>
+                                <td class="itemtit02">margin / padding</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td class="itemtit01"><strong>넘침</strong></td>
+                                <td class="itemtit02">overflow</td>
+                                <td><strong>플롯해제를 위해서 overflow 사용금지</strong>. 예외적 사항을 제외하고 js 핸들링을 위한 경우에만 사용권장.</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td class="itemtit01"><strong>폰트(그룹)</strong></td>
+                                <td class="itemtit02">font</td>
+                                <td>폰트는 축약속성을 사용하지 않으며, 다음의 순서로 정의<br />font-family, font-size, font-weight, font-style, font-variant</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td class="itemtit01"><strong>테두리(그룹)</strong></td>
+                                <td class="itemtit02">border</td>
+                                <td>아래 순서로 <strong>축약속성 사용</strong><br />
+                                border-width, border-style, border-color
+                                </td>
+                            </tr>
+							<tr>
+                                <td>9</td>
+                                <td class="itemtit01"><strong>배경</strong></td>
+                                <td class="itemtit02">background(그룹)</td>
+                                <td>아래 순서로 <strong>축약속성 사용</strong><br />
+                                background-color, background-image, background-position, background-repeat, background-attachment</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td class="itemtit01"><strong>기타속성</strong></td>
+                                <td class="itemtit02">위에 언급되지 않은 나머지 속성들은 테두리 관련속성 이전에 선언하며, 기타 속성내의 선언순서는 무관함.</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                     </table>
+                </div><!--// section div -->
+                               
+                <!-- 여기서부터 내용 e -->
+            </div><!--// wgDsc div -->
+        </div><!--// wgContent div -->
+        
+    </div><!--// wgContainer div  -->
+    
+</div><!--// wrapGuide div -->
+</body>
+</html>

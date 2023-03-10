@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" Pragma="no-cache" Cache-control="no-cache" content="text/html; charset=utf-8" />
+	<title>KDefense Install Page</title>
+	<link rel="stylesheet" type="text/css" href="/initech/plugin/install/css/install.css" />
+	<script type="text/javascript" src="/js/kdefense/kdfense_object.js"></script>
+<script>
+var bTrident=navigator.userAgent.toUpperCase().indexOf('TRIDENT');
+var bWindows=navigator.userAgent.toUpperCase().indexOf('WINDOWS');
+var objKDefense = fnGetKDefenseObject();
+
+setInterval("installYn()",1000*1);	
+setTimeout("Init()", 3000);
+function fileDown(){
+	document.location.href="/js/kdefense/K-Plugin.exe";
+}
+
+function Init(){
+
+	if(objKDefense == null){
+
+
+		if(confirm("키보드보안 모듈이 설치 되어 있지 않습니다. \n\n설치하시겠습니까?")){
+			
+			document.location.href = "/js/kdefense/K-Plugin.exe";  
+			
+		}else{               
+
+			alert("키보드 보안 설치가 취소되었습니다. \n\n설치 후 이용하여 주시기 바랍니다.");
+			document.location.href="/main/main.jsp";
+
+		}
+
+	}else{
+
+		if(fnChkocxUpdate()==true){
+
+			if(confirm("키보드보안 모듈이 업데이트 되었습니다. \n\n업데이트 하시겠습니까?")){
+
+				document.location.href = "/js/kdefense/K-Plugin.exe";
+
+			}else{
+
+				alert("키보드 보안 업데이트가 취소되었습니다. \n\n업데이트 후 이용하여 주시기 바랍니다.");
+				document.location.href="/main/main.jsp";
+
+			}
+
+		}
+
+	}
+
+}
+
+function installYn(){
+	var objKDefense = fnGetKDefenseObject();
+	if(objKDefense != null){
+		document.location.href="/main/main.jsp";
+	}
+}
+
+</script>
+</head>
+
+<body>
+<div id="wrapper_all">
+	<div	id="wrapper">
+	<h1>키보드 보안프로그램설치 안내<br /></h1>
+
+	   <div id="container">
+		<p class="install_wait_tit">키보드 보안프로그램을 설치 중입니다. 잠시만 기다려 주세요.</p>
+		<p class="instal_progress"><img src="/initech/plugin/install/img/process_bar.gif" alt="고객님의 소중한 정보 보호를 위해 암호화 프로그램을 설치/확인하고 있습니다." /></p>
+
+		  <div class="boxType33">
+				<div class="boxType33_head">
+					  <ul class="install_list02">
+						<li>* KDefense / Windows Package 
+						<a href="#" OnClick='javascript:fileDown();'><strong><span class='blue'>다운로드</span></strong></a>
+
+						<li>* 고객님의 컴퓨터 성능에 따라 10초~1분 정도 소요될 수 있습니다.</li>
+						<li>* 암호화 프로그램의 설치여부를 묻는 보안경고 창이 나타나면 반드시 [설치]를 선택하시고<br />설치해주시기 바랍니다.</li>
+						<li>* <strong>보안 프로그램을 다운로드 후 <span class="red">브라우저를 모두 종료 후 설치</span>를 시작해 주세요.</strong></li>
+					  </ul>
+
+				</div>
+			</div>		
+	   </div>
+	   <div class="footer"></div>
+    </div>
+</div>
+
+</body>
+</html>

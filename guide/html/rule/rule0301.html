@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>- GUIDE | 7-ELEVEN PUBLISHING GUIDE -</title>
+<link rel="stylesheet" type="text/css" href="../../com/css/guide.css" />
+<script type="text/javascript" src="../../com/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../com/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../../com/js/d_jquery.js"></script>
+<script type="text/javascript" src="../../com/js/d_menu.js"></script>
+</head>
+
+<body>
+
+<div title="스킵메뉴" class="skipMenu">
+	<a href="#wgHeader">주 메뉴 바로가기</a>
+    <a href="#wgContainer">본문 내용 바로가기</a>
+</div>
+<hr />
+<div id="wrapGuide">
+	<!-- HEADER s --><script type="text/javascript">TopArea();gnbBox_init(1);</script><!-- HEADER e //-->
+    <hr />
+    <div id="wgContainer" class="layout2 clfix">
+    	<!-- LNB s --><script type="text/javascript">LeftMenuRULE();lnb_menu('2','1');</script><!-- LNB e //-->
+        <div id="wgContent" class="clfix">
+        	<div class="titArea">
+            	<h1>폴더구조</h1>
+                <!--<p><script type="text/javascript">map.print(1,1,1);</script></p> -->
+            </div>
+            
+            <div class="wgDsc">
+            	<!-- 여기서부터 내용 s -->
+                    
+                <div class="section">
+                	<h2>기본구조</h2>
+                    <div class="dscBox type01">
+                    	<h3>■ 전체구조</h3>
+                    	 <ul class="treeset clfix">
+                        	<li class="last"><strong class="folder">fr</strong>
+                            	<ul class="treeset clfix">
+                                    <li><strong class="folder pointBl">html</strong> : html 페이지폴더</li>
+                                    <li><strong class="folder pointBl">com</strong> : css/js 폴더</li>
+                                    <li class="last"><strong class="folder pointBl">img</strong> : 이미지폴더</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p class="lstDsc"><strong>개발 협의 필요</strong></p>
+                        <!-- <h3>■ HTML</h3>
+                                            	<ul class="treeset clfix">
+                        	<li class="last"><strong class="folder pointBl">html</strong>
+                            	<ul class="treeset clfix">
+                                    <li><strong class="folder pointGn">ko</strong> : 국문
+                                    	<ul class="treeset clfix">
+                                            <li><strong class="folder pointPK">global</strong> : 글로벌html</li>
+                                            <li><strong class="folder pointPK">brand</strong> : 브랜드html
+                                            	<ul class="treeset clfix">
+                                                    <li><strong class="folder pointGy01">br_signiel</strong> : 브랜드 시그니엘</li>
+                                                    <li><strong class="folder pointGy01">br_lottehotel</strong> : 브랜드 롯데호텔</li>
+                                                    <li><strong class="folder pointGy01">br_cityhotel</strong> : 브랜드 시티호텔</li>
+                                                    <li class="last"><strong class="folder pointGy01">br_l7</strong> : 브랜드 L7</li>
+                                                </ul>
+                                            </li>
+                                            <li class="last"><strong class="folder pointPK">chain</strong> : 체인 html
+                                            	<ul class="treeset clfix">
+                                                    <li><strong class="folder pointGy01">ch_signiel</strong> : 체인 시그니엘</li>
+                                                    <li><strong class="folder pointGy01">ch_lottehotel</strong> : 체인 롯데호텔</li>
+                                                    <li><strong class="folder pointGy01">ch_cityhotel</strong> : 체인 시티호텔</li>
+                                                    <li class="last"><strong class="folder pointGy01">ch_l7</strong> : 체인 L7</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><strong class="folder pointGn">en</strong> : 영문 - 이하구조 국문과 동일</li>
+                                    <li><strong class="folder pointGn">zh</strong> : 중문 - 이하구조 국문과 동일</li>
+                                    <li class="last"><strong class="folder pointGn">ja</strong> : 일문 - 이하구조 국문과 동일</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                        <h3>■ IMG</h3>
+                                            	<ul class="treeset clfix">
+                        	<li class="last"><strong class="folder pointBl">img</strong>
+                            	<ul class="treeset clfix">
+                                	<li><strong class="folder pointGn">com</strong> : 글로벌, 브랜드, 체인 통합공통이미지
+                                    	<ul class="treeset clfix">
+                                        	<li><strong class="folder pointPK">layout</strong> : 글로벌, 브랜드, 체인 통합공통  레이아웃관련 이미지</li>
+                                            <li><strong class="folder pointPK">ico</strong> : 글로벌, 브랜드, 체인 통합공통  버튼, 아이콘, 블릿 등</li>
+                                            <li class="last"><strong class="folder pointPK">content</strong> : 글로벌, 브랜드, 체인 통합공통 이미지(ex. NO-Image 썸네일 등)</li>
+                                          </ul>
+                                    </li>
+                                    <li><strong class="folder pointGn">ko</strong> : 국문
+                                    	<ul class="treeset clfix">
+                                            <li><strong class="folder pointPK">global</strong> : 글로벌 이미지</li>
+                                            <li><strong class="folder pointPK">brand</strong> : 브랜드 이미지
+                                            	<ul class="treeset clfix">
+                                                    <li><strong class="folder pointGy01">br_signiel</strong> : 브랜드 시그니엘</li>
+                                                    <li><strong class="folder pointGy01">br_lottehotel</strong> : 브랜드 롯데호텔</li>
+                                                    <li><strong class="folder pointGy01">br_cityhotel</strong> : 브랜드 시티호텔</li>
+                                                    <li class="last"><strong class="folder pointGy01">br_l7</strong> : 브랜드 L7</li>
+                                                </ul>
+                                            </li>
+                                            <li class="last"><strong class="folder pointPK">chain</strong> : 체인 이미지
+                                            	<ul class="treeset clfix">
+                                                    <li><strong class="folder pointGy01">ch_signiel</strong> : 체인 시그니엘</li>
+                                                    <li><strong class="folder pointGy01">ch_lottehotel</strong> : 체인 롯데호텔</li>
+                                                    <li><strong class="folder pointGy01">ch_cityhotel</strong> : 체인 시티호텔</li>
+                                                    <li class="last"><strong class="folder pointGy01">ch_l7</strong> : 체인 L7</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><strong class="folder pointGn">en</strong> : 영문 - 이하구조 국문과 동일</li>
+                                    <li><strong class="folder pointGn">zh</strong> : 중문 - 이하구조 국문과 동일</li>
+                                    <li class="last"><strong class="folder pointGn">ja</strong> : 일문 - 이하구조 국문과 동일</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                        
+                        <a id="ruleCss" name="ruleCss"></a>
+                        <h3>■ CSS</h3>
+                                            	<ul class="treeset clfix">
+                        	<li class="last"><strong class="folder pointBl">css</strong>
+                            	<ul class="treeset clfix">
+                                    <li><strong class="paper pointGn">cm.import.ko.css</strong> : 국문 언어대응</li>
+                                    <li><strong class="paper pointGn">cm.import.en.css</strong> : 영문 언어대응</li>
+                                    <li><strong class="paper pointGn">cm.import.zh.css</strong> : 중문 언어대응</li>
+                                    <li><strong class="paper pointGn">cm.import.ja.css</strong> : 일문 언어대응</li>
+                                    <li><strong class="paper pointGn">cm.import.local.css</strong> : 로컬 언어대응</li>
+                                    <li><strong class="paper pointGn">cm.lottehotel.css</strong> : 전체 컨텐츠 공통(버튼, 테이블, 게시판 등)</li>
+                                    <li><strong class="paper pointGn">cm.layout.css</strong> : 전체 레이아웃 공통(팝업 레이아웃 포함)</li>
+                                    <li><strong class="paper pointGn">global.css</strong> : 글로벌 css</li>
+                                    <li><strong class="paper pointGn">brand.css</strong> : 브랜드 css</li>
+                                    <li class="last"><strong class="paper pointGn">chain.css</strong> : 체인 css</li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div><!--// section div -->
+                               
+                <!-- 여기서부터 내용 e -->
+            </div><!--// wgDsc div -->
+        </div><!--// wgContent div -->
+        
+    </div><!--// wgContainer div  -->
+    
+</div><!--// wrapGuide div -->
+</body>
+</html>
