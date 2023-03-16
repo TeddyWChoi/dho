@@ -10,9 +10,14 @@
 #container{position: relative;}
 
 /*************  메인쪽 세부코딩 ***********************/
-.pop_area_in {
+
+.login-slider-section .pop_area_in{
+  margin-top: 30px;
+}
+
+.pop_area_in{
     position: relative;
-    margin-top: 30px;
+  
 }
 
 .pop_area_in .layer_close {
@@ -1554,7 +1559,7 @@ address span {
 .g-rank .lst li .flag{float:left;margin-right:10px}
 .g-rank .lst li .nation{float:left;padding-top:2px;color:#6b6d70}
 .g-rank .lst li .updn{display:block;position:absolute;top:7px;right:0;width:47px;text-align:center}
-.g-rank .lst li .updn em{display:inline-block;padding-left:13px;background:url(./images/sp_ic.gif) no-repeat;color:#888;font-family:tahoma;font-size:11px}
+.g-rank .lst li .updn em{display:inline-block;padding-left:13px;background:url(../images/sp_ic.gif) no-repeat;color:#888;font-family:tahoma;font-size:11px}
 .g-rank .lst li .up em{background-position:0 -25px}
 .g-rank .lst li .dn em{background-position:0 -55px}
 .g-rank .lst li .sm{top:14px}

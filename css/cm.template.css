@@ -4023,10 +4023,144 @@ ul.sub_menu li.on a {
 }
 
 
+/* 대항해 샵 */
 
+/* 대항해샵 */
+.item_wrap{}
+.item_wrap .bbs_tab{margin-top:30px}
 
+.bx_item_top{position:relative;border:1px solid #d8d8d8;zoom:1}
+.bx_item_top .bx_in{overflow:hidden;padding:11px 0 10px 11px;border-width:2px 1px 1px;border-style:solid;border-color:#f9f9f9 #f9f9f9 #e4e4e4;background:#f5f5f5;zoom:1}
+.bx_item_top .banner{overflow:hidden;position:relative;float:left;width:790px;height:270px;margin-right:20px;border:1px solid #ccc}
+.bx_item_top .banner .slides_container a{display:block}
+.bx_item_top .banner .page2{z-index:10;position:absolute;bottom:9px;right:9px;overflow:hidden;zoom:1}
+.bx_item_top .banner .page2 li{display:inline;float:left;margin:0 1px}
+.bx_item_top .banner .page2 li a{display:block;overflow:hidden;width:12px;height:12px;background:url(/web/cp2/dho/v/img/common/sp_page2.gif) no-repeat;text-indent:-9999px;font-size:0;line-height:0}
+.bx_item_top .banner .page2 li.current a{background-position:0 -20px}
+.bx_item_top .best{float:left;width:329px}
+.bx_item_top .best h4{padding:4px 0 6px;border-bottom:1px solid #dcdcdc}
+.bx_item_top .best h4 strong{color:#0070c0;font-family:'Malgun Gothic','맑은 고딕',dotum,sans-serif;font-size:18px;letter-spacing:-2px;line-height:27px}
+.bx_item_top .best .cont{margin-top:19px}
+.bx_item_top .best .cont .thmb{float:left;margin-right:17px}
+.bx_item_top .best .cont .thmb a{display:block;padding:11px;background:url(/web/cp2/dho/v/img/shop/bg_thmb.gif) no-repeat}
+.bx_item_top .best .cont .thmb img{border:1px solid #666}
+.bx_item_top .best .cont dl{overflow:hidden;float:left;width:224px}
+.bx_item_top .best .cont dt{padding:1px 0 9px}
+.bx_item_top .best .cont dt a{margin-right:4px;color:#333;font-weight:bold;letter-spacing:-1px;vertical-align:middle}
+.bx_item_top .best .cont dt img{vertical-align:-4px}
+.bx_item_top .best .cont dd.tx a{color:#666;line-height:18px}
+.bx_item_top .best .cont dd.price{margin-top:9px;color:#666;font-size:14px;font-weight:bold;letter-spacing:-1px}
+.bx_item_top .best .cont dd.price em{color:#ff3300}
+
+.lst_item{overflow:hidden;margin-left:-10px;padding-top:10px;zoom:1;word-break:break-all;word-wrap:break-word}
+.lst_item .unit{display:inline;float:left;width:388px;_width:390px;min-height:200px;_height:200px;margin:10px 0 0 10px;border:1px solid #e5e5e5}
+.lst_item .unit .top{overflow:hidden;padding:20px;border-bottom:1px solid #e5e5e5;background:#fafafa;zoom:1}
+.lst_item .unit .top .thmb{float:left;margin-right:17px;padding:10px;border:1px solid #ccc;background:#fff}
+.lst_item .unit .top .thmb img{border:1px solid #666}
+.lst_item .unit .top dl{overflow:hidden;float:left;width:240px}
+.lst_item .unit .top dt{padding:1px 0 8px}
+.lst_item .unit .top dt strong{margin-right:4px;color:#333;letter-spacing:-1px;vertical-align:middle}
+.lst_item .unit .top dt img{vertical-align:-4px}
+.lst_item .unit .top dd.tx{color:#666;line-height:18px}
+.lst_item .unit .top dd.price{margin-top:8px;color:#666;font-size:14px;font-weight:bold;letter-spacing:-1px}
+.lst_item .unit .top dd.price em{color:#ff3300}
+.lst_item .unit .detail{padding:19px 19px 24px}
+.item_detail li{color:#666;font-size:11px;line-height:18px;vertical-align:top}
+.item_detail li.depth1{padding-left:7px;background:url(/web/cp2/dho/v/img/common/bu_arr5.gif) 0 5px no-repeat}
+.item_detail li.depth2{padding-left:18px;background:url(/web/cp2/dho/v/img/common/bu_dash.gif) 8px 7px no-repeat}
+.item_detail li.none{}
+
+.treasure_wrap{zoom:1;margin-top:30px;}
+.treasure_wrap .bx_desc{margin-top:20px;border:1px solid #ccc;zoom:1}
+.treasure_wrap .bx_desc dt{padding:6px 19px 7px;border-bottom:1px solid #ccc;background:#f3f3f3;color:#0070c0;font-family:'Malgun Gothic','맑은 고딕',dotum,sans-serif;font-size:18px;font-weight:bold;letter-spacing:-1px;line-height:23px}
+.treasure_wrap .bx_desc dd{overflow:hidden;padding:20px;zoom:1}
+.treasure_wrap .bx_desc dd .thmb{float:left;margin-right:20px}
+.treasure_wrap .bx_desc dd ul{float:left;width:530px}
+.treasure_wrap .bx_desc dd li{margin-bottom:5px;padding-left:7px;background:url(/web/cp2/dho/v/img/common/bu_arr5.gif) 0 6px no-repeat;color:#333;font-size:16px;font-weight:bold;line-height:24px}
+.treasure_wrap .h_treasure{margin-top:36px}
+.treasure_wrap .h_treasure strong{margin-right:7px;color:#010101;font-family:'Malgun Gothic','맑은 고딕',dotum,sans-serif;font-size:30px;letter-spacing:-2px;line-height:37px}
+.treasure_wrap .h_treasure span{color:#666;font-size:12px;font-weight:normal;white-space:nowrap}
+.treasure_wrap .tab_menu{overflow:hidden;margin-top:40px;zoom:1}
+.treasure_wrap .tab_menu li{float:left;margin-right:-1px;border:1px solid #dfdfdf;background:#f3f3f3}
+.treasure_wrap .tab_menu li a{display:block;width:392px;_width:393px;height:56px;_height:69px;padding-top:11px;border:1px solid #fff;border-right:0;border-bottom-color:#ececec;color:#666;text-align:center;text-decoration:none !important;cursor:pointer}
+.treasure_wrap .tab_menu li a strong{display:block;overflow:hidden;width:100%;font-family:'Malgun Gothic','맑은 고딕',dotum,sans-serif;font-size:22px;letter-spacing:-2px;line-height:27px;white-space:nowrap;text-overflow:ellipsis}
+.treasure_wrap .tab_menu li a span{display:block;margin-top:6px}
+.treasure_wrap .tab_menu li a.tab01{width:393px;_width:394px}
+.treasure_wrap .tab_menu .on{border-bottom:1px solid #fff;background:#fff}
+.treasure_wrap .tab_menu .on a{position:relative;border-color:#fff}
+.treasure_wrap .tab_menu .on a strong{color:#010101;font-weight:bold}
+.treasure_wrap .tab_menu2{overflow:hidden;margin-top:30px;zoom:1}
+.treasure_wrap .tab_menu2 li{float:left;margin-right:-1px;padding-bottom:6px}
+.treasure_wrap .tab_menu2 li a{display:block;width:196px;_width:198px;height:43px;_height:56px;border:1px solid #dfdfdf;background:#fff;padding-top:11px;text-align:center;text-decoration:none !important;cursor:pointer}
+.treasure_wrap .tab_menu2 li a strong{display:block;overflow:hidden;width:100%;color:#666;font-size:14px;font-weight:normal;letter-spacing:-1px;line-height:19px;white-space:nowrap;text-overflow:ellipsis}
+.treasure_wrap .tab_menu2 li a span{display:block;color:#666}
+.treasure_wrap .tab_menu2 li a span em{color:#ff3300}
+.treasure_wrap .tab_menu2 li a.tab04{width:197px;_width:199px}
+.treasure_wrap .tab_menu2 .on{background:#fff url(../images/bg_tab2_arr.gif) 50% 100% no-repeat}
+.treasure_wrap .tab_menu2 .on a{position:relative;background:#f1f1f1 url(/web/cp2/dho/v/img/shop/bg_tab2.gif) no-repeat;font-weight:bold}
+.treasure_wrap .tab_menu2 .on a strong{color:#080808;font-weight:bold}
+
+.h_item{margin-bottom:5px;padding-bottom:6px;border-bottom:1px solid #ccc;zoom:1}
+.h_item strong{color:#010101;font-family:'Malgun Gothic','맑은 고딕',dotum,sans-serif;font-size:16px;font-weight:bold;letter-spacing:-1px;line-height:23px}
+
+.ship_group{margin-top:19px}
+.lst_item2{zoom:1}
+.lst_item2:after{display:block;clear:both;content:''}
+.lst_item2 .unit{float:left;width:50%;margin-top:20px}
+.lst_item2 .unit .thmb{float:left;width:142px;height:112px;margin-right:13px}
+.lst_item2 .unit .thmb img{border:1px solid #ccc}
+.lst_item2 .unit .detail{overflow:hidden;float:left;width:220px}
+.lst_item2 .unit .detail dt{overflow:hidden;width:100%;color:#333;font-weight:bold;letter-spacing:-1px;white-space:nowrap;text-overflow:ellipsis}
+.lst_item2 .unit .detail dt a{color:#333}
+.lst_item2 .unit .detail dd.tx{overflow:hidden;height:52px;margin-top:8px;color:#666;line-height:18px}
+.lst_item2 .unit .detail dd.tx a{color:#666}
+.lst_item2 .unit .detail dd.bt{margin-top:12px}
+
+.item_group{margin-top:35px}
+.lst_item3{zoom:1}
+.lst_item3:after{display:block;clear:both;content:''}
+.lst_item3 .unit{float:left;width:33.3%;margin-top:20px}
+.lst_item3 .unit .thmb{float:left;width:66px;height:66px;margin-right:13px}
+.lst_item3 .unit .thmb img{border:1px solid #ccc}
+.lst_item3 .unit .detail{overflow:hidden;float:left;width:150px}
+.lst_item3 .unit .detail dt{overflow:hidden;width:100%;color:#333;font-weight:bold;letter-spacing:-1px;white-space:nowrap;text-overflow:ellipsis}
+.lst_item3 .unit .detail dt a{color:#333}
+.lst_item3 .unit .detail dd.tx{overflow:hidden;height:36px;margin-top:8px;color:#666;line-height:18px}
+.lst_item3 .unit .detail dd.tx a{color:#666}
+.lst_item3 .unit .detail dd.bt{margin-top:12px}
+
+.item_group2{margin-top:40px;padding:15px 21px 22px;border:1px solid #ccc;background:#f5f5f5}
+.item_group2 .h_item strong{color:#000066}
+
+.unit:hover .ly_item{display:block;}
+
+/* .ly_item{display:none;z-index:10;position:absolute;top:100%;left:0;margin-top:5px} */
+.ly_item{display:none;z-index:10;position:absolute;margin-top:5px}
+.ly_item .ly_shadow{position:absolute;top:2px;left:2px;width:360px;background:#000;opacity:.2;filter:alpha(opacity=20)}
+.ly_item .ly_arr{z-index:20;display:block;position:absolute;top:-11px;left:22px;width:21px;height:14px;background:url(../images/ly_item_arr.gif) no-repeat}
+.ly_item .ly_bx{z-index:10;position:absolute;top:0;left:0;width:358px;_width:360px;border:1px solid #b6b6b6;background:#fff}
+.ly_item .ly_bx .ly_top{overflow:hidden;padding:20px 0 20px 20px;border-bottom:1px solid #e3e4e5;background:#f7f8f9;zoom:1}
+.ly_item .ly_bx .ly_top .ly_thmb{float:left;margin-right:13px}
+.ly_item .ly_bx .ly_top .ly_thmb img{border:1px solid #ccc}
+.ly_item .ly_bx .ly_top dl{overflow:hidden;float:left;width:240px}
+.ly_item .ly_bx .ly_top dt{padding:1px 0 8px}
+.ly_item .ly_bx .ly_top dt strong{margin-right:4px;color:#333;letter-spacing:-1px;vertical-align:middle}
+.ly_item .ly_bx .ly_top dt img{vertical-align:-4px}
+.ly_item .ly_bx .ly_top dd.tx{color:#666;line-height:18px}
+.ly_item .ly_bx .ly_top dd.price{margin-top:8px;color:#666;font-size:14px;font-weight:bold;letter-spacing:-1px}
+.ly_item .ly_bx .ly_top dd.price em{color:#ff3300}
+.ly_item .ly_bx .ly_detail{padding:19px 19px 24px}
+
+.bx_docs{margin-top:36px}
+.bx_docs h5{padding-bottom:5px;border-bottom:1px solid #ccc;zoom:1}
+.bx_docs h5 strong{color:#010101;font-size:18px;font-weight:bold;letter-spacing:-1px;line-height:21px}
+.bx_docs ol{padding-top:18px}
+.bx_docs li{color:#666;font-size:14px;line-height:24px}
 
 /************** 이벤트 리스트 *****************/
+
+.episode{margin-top:30px;}
+
 #sec-02 .filter-container {
 	position: relative;
 	margin-top: -5px;
