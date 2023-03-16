@@ -510,8 +510,8 @@ $(function(){
 
 	/*배너롤링*/
 	var bannerArry = [
-		{src:'/images/temp/img_banner_temp.png', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'/images/temp/img_banner_temp_2.png', alt:'기획확인 요망2', dataLink: '#'}
+		{src:'./images/temp/img_banner_temp.png', alt:'기획확인 요망1', dataLink: '#'},
+		{src:'./images/temp/img_banner_temp_2.png', alt:'기획확인 요망2', dataLink: '#'}
 
 	];
 	$.fn.slideCol1 = function(data){
@@ -728,7 +728,7 @@ $(function(){
 				clearInterval(rolling);
 				psNum = false;
 				
-				$wrapList.find('.ps_btn').css({'background':'url(/images/imgSlider_zip.png) 0px -34px no-repeat'})/*09.28 최웅 수정*/
+				$wrapList.find('.ps_btn').css({'background':'url(./images/imgSlider_zip.png) 0px -34px no-repeat'})/*09.28 최웅 수정*/
 				$wrapList.find('.ps_btn').html('<span class="hide">재생</span>')
 					
 			}
@@ -739,7 +739,7 @@ $(function(){
 				autoBn()
 				
 				psNum = true;
-				$wrapList.find('.ps_btn').css({'background':'url(/images/imgSlider_zip.png) 0px -53px no-repeat'})/*09.28 최웅 수정*/
+				$wrapList.find('.ps_btn').css({'background':'url(./images/imgSlider_zip.png) 0px -53px no-repeat'})/*09.28 최웅 수정*/
 				$wrapList.find('.ps_btn').html('<span class="hide">일시정지</span>')
 			}
 			return false;

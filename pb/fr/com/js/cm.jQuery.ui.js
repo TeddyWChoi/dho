@@ -139,7 +139,7 @@ $(function(){
 			$listFagLi.removeClass('on');
 			$listFagA.attr('title', '답변 열기');
 			$arrow.text('펼쳐보기');
-			$arrow.css('background','url(/images/ico_arrow01.png) 0 12px no-repeat');
+			$arrow.css('background','url(./images/ico_arrow01.png) 0 12px no-repeat');
 			$answer.css('border-top','none');
 			$answer.stop().animate({'height': '0',
 				'padding-top': '0'
@@ -152,11 +152,11 @@ $(function(){
 			$listFagLi.removeClass('on');
 			$thisParents.addClass('on');
 			$arrow.text('펼쳐보기');
-			$arrow.css('background','url(/images/ico_arrow01.png) 0 12px no-repeat');
+			$arrow.css('background','url(./images/ico_arrow01.png) 0 12px no-repeat');
 			$listFagA.attr('title', '답변 열기');
 			$(this).attr('title', '답변 닫기');
 			$(this).find('.arrow').text('닫기');
-			$(this).find('.arrow').css('background','url(/images/ico_arrow01.png) 0 -12px no-repeat');
+			$(this).find('.arrow').css('background','url(./images/ico_arrow01.png) 0 -12px no-repeat');
 			$answer.stop().animate({
 				'height': '0',
 				'padding-top': '0'
@@ -538,10 +538,10 @@ $(function(){
 
 	/*배너롤링*/
 	var bannerArry = [
-		{src:'/images/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'/images/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'},
-		{src:'/images/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'/images/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'}
+		{src:'./images/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
+		{src:'./images/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'},
+		{src:'./images/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
+		{src:'./images/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'}
 
 	];
 	$.fn.slideCol1 = function(data){
@@ -759,7 +759,7 @@ $(function(){
 				clearInterval(rolling);
 				psNum = false;
 				
-				$wrapList.find('.ps_btn').css({'background':'url(/images/imgSlider_zip.png) 0px -34px no-repeat'})/*09.28 최웅 수정*/
+				$wrapList.find('.ps_btn').css({'background':'url(./images/imgSlider_zip.png) 0px -34px no-repeat'})/*09.28 최웅 수정*/
 				$wrapList.find('.ps_btn').html('<span class="hide">재생</span>')
 					
 			}
@@ -770,7 +770,7 @@ $(function(){
 				autoBn()
 				
 				psNum = true;
-				$wrapList.find('.ps_btn').css({'background':'url(/images/imgSlider_zip.png) 0px -53px no-repeat'})/*09.28 최웅 수정*/
+				$wrapList.find('.ps_btn').css({'background':'url(./images/imgSlider_zip.png) 0px -53px no-repeat'})/*09.28 최웅 수정*/
 				$wrapList.find('.ps_btn').html('<span class="hide">일시정지</span>')
 			}
 			return false;

@@ -23,14 +23,14 @@
     position: absolute;
     right: 15px;
     top: 13px;
-    background: url(/images/ico_zip.png) 0 -702px no-repeat;
+    background: url(../images/ico_zip.png) 0 -702px no-repeat;
 }
 
 .main .cont_body ul {
     width: 710px;
     height: 150px;
     float: left;
-    background: url('/images/cont_body_bg.png') no-repeat 0px 0px;
+    background: url('./images/cont_body_bg.png') no-repeat 0px 0px;
 }
 
 .main .cont_body ul li {
@@ -74,7 +74,7 @@
     float: right;
     width: 269px;
     height: 150px;
-    background: url('/images/temp/img_mov_temp.png') no-repeat 0px 0px;
+    background: url('./images/temp/img_mov_temp.png') no-repeat 0px 0px;
 }
 
 .main .cont_body .mov_box a {
@@ -87,12 +87,12 @@
     float: right;
     width: 20px;
     height: 14px;
-    background: url('/images/btn_banner.png') no-repeat 0px 0px;
+    background: url('./images/btn_banner.png') no-repeat 0px 0px;
 }
 
 
 .btn_banner.on {
-    background: url('/images/btn_banner.png') no-repeat 0px -14px;
+    background: url('./images/btn_banner.png') no-repeat 0px -14px;
 }
 
 
@@ -162,7 +162,7 @@
 #header #papaya-gnb ul li a.cashshop::before {
     display: inline-block;
     position: absolute;
-    background: url(/images/ico_cashshop.svg) no-repeat 0px 0px;
+    background: url(../images/ico_cashshop.svg) no-repeat 0px 0px;
     content: "";
     height: 22px;
     width: 22px;
@@ -281,7 +281,7 @@
     border-bottom: 5px solid #113366;
     width: 100%;
     height: 420px;
-    background: url(/images/img_top.jpg) no-repeat 0 0;
+    background: url(../images/img_top.jpg) no-repeat 0 0;
     background-size: cover;
     margin: 0 auto;
     background-position: center;
@@ -295,7 +295,7 @@
     border-bottom: 5px solid #113366;
     width: 100%;
     height: 300px;
-    background: url(/images/img_top2.jpg) no-repeat 0 0;
+    background: url(../images/img_top2.jpg) no-repeat 0 0;
     background-size: cover;
     margin: 0 auto;
     background-position: center;
@@ -358,7 +358,7 @@
     display: inline-block;
     margin-top: 11px;
     padding-left: 26px;
-    background: url(/images/sp_ic.gif) 15px 10px no-repeat;
+    background: url(../images/sp_ic.gif) 15px 10px no-repeat;
     color: #ff3300;
     vertical-align: middle;
     font-size: 16px;
@@ -1389,7 +1389,7 @@
     font-size: 11px;
     font-weight: bold;
     position: relative;
-    background: url(/images/bg_footer.jpg) center center no-repeat;
+    background: url(../images/bg_footer.jpg) center center no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -1410,7 +1410,7 @@
     padding: 0 6px;
     margin-top: 6px;
     color: #494949;
-    background: url(/images/bar_2x11.gif) 0 5px no-repeat;
+    background: url(../images/bar_2x11.gif) 0 5px no-repeat;
 }
 
 .footer_body>ul>li:first-child {
@@ -1554,7 +1554,7 @@ address span {
 .g-rank .lst li .flag{float:left;margin-right:10px}
 .g-rank .lst li .nation{float:left;padding-top:2px;color:#6b6d70}
 .g-rank .lst li .updn{display:block;position:absolute;top:7px;right:0;width:47px;text-align:center}
-.g-rank .lst li .updn em{display:inline-block;padding-left:13px;background:url(/images/sp_ic.gif) no-repeat;color:#888;font-family:tahoma;font-size:11px}
+.g-rank .lst li .updn em{display:inline-block;padding-left:13px;background:url(./images/sp_ic.gif) no-repeat;color:#888;font-family:tahoma;font-size:11px}
 .g-rank .lst li .up em{background-position:0 -25px}
 .g-rank .lst li .dn em{background-position:0 -55px}
 .g-rank .lst li .sm{top:14px}
@@ -1672,14 +1672,14 @@ address span {
     float: left;
     font-size: 11px;
     padding-left: 20px;
-    background: url('/images/ico_zip.png') no-repeat -24px 0.5px;
+    background: url('./images/ico_zip.png') no-repeat -24px 0.5px;
 }
 
 .line_map ol li:first-child {
     width: 11px;
     height: 11px;
     padding-left: 0;
-    background: url('/images/ico_zip.png') no-repeat 0px 0.5px;
+    background: url('./images/ico_zip.png') no-repeat 0px 0.5px;
 }
 
 .line_map ol li:first-child a {
@@ -1761,7 +1761,7 @@ h3 {
 }
 
 .sub_box_list li {
-    background: url(/images/bul_red_3x3.gif) 0 6px no-repeat;
+    background: url(../images/bul_red_3x3.gif) 0 6px no-repeat;
     padding-left: 8px;
     margin-top: 10px;
     line-height: 18px;
@@ -1791,7 +1791,7 @@ h3 {
     font-weight: bold;
     font-size: 14px;
     color: #e00d2f;
-    background: url('/images/cont_right_blit.png') no-repeat 0px 5px;
+    background: url('./images/cont_right_blit.png') no-repeat 0px 5px;
 }
 
 .cont_right01 {
@@ -1848,7 +1848,7 @@ h3 {
     width: 220px;
     padding-bottom: 10px;
     padding-left: 8px;
-    background: url('/images/agree_dot.gif') 0 6px no-repeat;
+    background: url('./images/agree_dot.gif') 0 6px no-repeat;
     font-size: 13px;
 }
 
@@ -1877,7 +1877,7 @@ h3 {
 }
 
 .tit_drop h3 {
-    background: url(/images/ico_arrow02.png) 238px -24px no-repeat;
+    background: url(../images/ico_arrow02.png) 238px -24px no-repeat;
     padding: 0 0 0 10px;
     height: 37px;
     line-height: 37px;
@@ -1923,7 +1923,7 @@ h3 {
 
 .right_link_list li {
     float: left;
-    background: url(/images/bar_1x11.gif) 0 4px no-repeat;
+    background: url(../images/bar_1x11.gif) 0 4px no-repeat;
     padding: 0 9px;
     line-height: 18px;
 }
@@ -2235,7 +2235,7 @@ h3 {
 }
 
 .layer_pop_wrap .layer_header p {
-    background: url(/images/ico_zip.png) 0 -624px no-repeat;
+    background: url(../images/ico_zip.png) 0 -624px no-repeat;
     color: #0e4c72;
     line-height: 22px;
     font-size: 16px;
@@ -2250,7 +2250,7 @@ h3 {
     position: absolute;
     right: 15px;
     top: 13px;
-    background: url(/images/ico_zip.png) 0 -702px no-repeat;
+    background: url(../images/ico_zip.png) 0 -702px no-repeat;
 }
 
 /*팝업 롤링*/
@@ -2280,14 +2280,14 @@ h3 {
     position: absolute;
     width: 8px;
     height: 8px;
-    background: url(/images/imgSlider_zip.png) 0px 0px no-repeat;
+    background: url(../images/imgSlider_zip.png) 0px 0px no-repeat;
 }
 
 .bn_area dt a.on {
     display: inline-block;
     width: 8px;
     height: 8px;
-    background: url(/images/imgSlider_zip.png) 0px -17px no-repeat;
+    background: url(../images/imgSlider_zip.png) 0px -17px no-repeat;
 }
 
 .bn_area dd {
@@ -2304,7 +2304,7 @@ h3 {
 .ps_btn {
     width: 8px;
     height: 10px;
-    background: url(/images/imgSlider_zip.png) 0px -53px no-repeat;
+    background: url(../images/imgSlider_zip.png) 0px -53px no-repeat;
 }
 
 /** 클래스 추가 01.02 **/

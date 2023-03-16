@@ -970,7 +970,7 @@ color:#244F80;
 	right: 20px;
 	top: 16px;
 	height: 6px;
-	background: url(/images/ico_arrow01.png) 0 12px no-repeat;
+	background: url(../images/ico_arrow01.png) 0 12px no-repeat;
 	padding-left: 18px;
 	font-size: 14px;
 	height: 20px;
@@ -1298,7 +1298,7 @@ color:#244F80;
 }
 
 .table_form .req {
-	background: url(/images/ico_req.png) right 3px no-repeat;
+	background: url(../images/ico_req.png) right 3px no-repeat;
 }
 
 .table_form .count_ch {
@@ -1521,7 +1521,7 @@ color:#244F80;
 	display: inline-block;
 	width: 31px;
 	text-indent: -99999px;
-	background: url(/images/ico_re.gif) 0 4px no-repeat;
+	background: url(../images/ico_re.gif) 0 4px no-repeat;
 	margin-left: 10px;
 }
 
@@ -1529,7 +1529,7 @@ color:#244F80;
 	display: inline-block;
 	width: 31px;
 	text-indent: -99999px;
-	background: url(/images/ico_video.gif) 0 4px no-repeat;
+	background: url(../images/ico_video.gif) 0 4px no-repeat;
 	margin-left: 10px;
 }
 
@@ -1537,7 +1537,7 @@ color:#244F80;
 	display: inline-block;
 	width: 31px;
 	text-indent: -99999px;
-	background: url(/images/ico_img.gif) 0 4px no-repeat;
+	background: url(../images/ico_img.gif) 0 4px no-repeat;
 	margin-left: 10px;
 }
 
@@ -1668,7 +1668,7 @@ color:#244F80;
 	top: 26px;
 	width: 28px;
 	height: 13px;
-	/* background: url(/images/ico_re.gif) 0 4px no-repeat; */
+	/* background: url(../images/ico_re.gif) 0 4px no-repeat; */
 }
 
 .board_view .td_cont.reply .ico_re {
@@ -1678,7 +1678,7 @@ color:#244F80;
 	top: 20px;
 	width: 22px;
 	height: 22px;
-	background: url(/images/ico_reply.png) 0 4px no-repeat;
+	background: url(../images/ico_reply.png) 0 4px no-repeat;
 }
 
 .board-view-btn {
@@ -1694,7 +1694,7 @@ color:#244F80;
 
 .board-view-btn .board-view-btn1::before {
 	display: inline-block;
-	background: url(/images/ico_arrow.png) no-repeat 0px 6px;
+	background: url(../images/ico_arrow.png) no-repeat 0px 6px;
 	content: "";
 	height: 22px;
 	width: 22px;
@@ -1704,7 +1704,7 @@ color:#244F80;
 
 .board-view-btn .board-view-btn2::before {
 	display: inline-block;
-	background: url(/images/ico_thumb.png) no-repeat 0px 0px;
+	background: url(../images/ico_thumb.png) no-repeat 0px 0px;
 	content: "";
 	height: 15px;
 	width: 20px;
@@ -1719,7 +1719,7 @@ color:#244F80;
 
 .board-view-btn .board-view-btn3::before {
 	display: inline-block;
-	background: url(/images/ico_link.png) no-repeat 0px 0px;
+	background: url(../images/ico_link.png) no-repeat 0px 0px;
 	content: "";
 	height: 16px;
 	width: 20px;
@@ -1773,7 +1773,7 @@ color:#244F80;
 
 .paging a {
 	display: inline-block;
-	background: url(/images/bg_paging.png) 0 0 no-repeat;
+	background: url(../images/bg_paging.png) 0 0 no-repeat;
 	width: 29px;
 	height: 29px;
 	margin-left: 2px;
@@ -2044,7 +2044,7 @@ color:#244F80;
 	font-weight: bold;
 	width: 50px;
 	height: 25px;
-	background: url(/images/btn_sgray.png) 0 0 no-repeat;
+	background: url(../images/btn_sgray.png) 0 0 no-repeat;
 	font-size: 12px;
 	color: #fff;
 	vertical-align: middle;
@@ -2197,7 +2197,7 @@ color:#244F80;
 	height: 42px;
 	width: 215px;
 	margin-left: 5px;
-	background: url(/images/bg_boU.png) 0 -36px no-repeat;
+	background: url(../images/bg_boU.png) 0 -36px no-repeat;
 }
 
 .tab_layer.boU li:first-child {
@@ -2315,7 +2315,7 @@ color:#244F80;
 }
 
 .input_form .req {
-	background: url(/images/ico_req.png) 0 5px no-repeat;
+	background: url(../images/ico_req.png) 0 5px no-repeat;
 	padding-left: 16px;
 }
 
@@ -2521,7 +2521,7 @@ color:#244F80;
 .req02 {
 	position: relative;
 	padding-left: 8px;
-	background: url(/images/agree_dot.gif) 0 6px no-repeat
+	background: url(../images/agree_dot.gif) 0 6px no-repeat
 }
 
 .req02 strong {
@@ -2531,7 +2531,7 @@ color:#244F80;
 	display: inline-block;
 	width: 6px;
 	height: 6px;
-	background: url(/images/ico_req.png) 0 0px no-repeat;
+	background: url(../images/ico_req.png) 0 0px no-repeat;
 }
 
 
@@ -2606,7 +2606,7 @@ color:#244F80;
 
 .agreebox_wrap .wrap_btn_agree {
 	height: 28px;
-	background: url(/images/bg_btn_agree.png) 0 0 repeat-x;
+	background: url(../images/bg_btn_agree.png) 0 0 repeat-x;
 	border: 1px solid #e6e6e6;
 }
 
@@ -2623,7 +2623,7 @@ color:#244F80;
 
 .agreebox_wrap .wrap_btn_agree .btn_agree .arrow {
 	height: 6px;
-	background: url(/images/ico_arrow01.png) 0 2px no-repeat;
+	background: url(../images/ico_arrow01.png) 0 2px no-repeat;
 	padding-left: 18px;
 }
 
@@ -2654,7 +2654,7 @@ color:#244F80;
 
 .agreebox_wrap02 .agree_tit {
 	padding-left: 7px;
-	background: url(/images/agree_dot.gif) 0 6px no-repeat;
+	background: url(../images/agree_dot.gif) 0 6px no-repeat;
 	color: #666;
 	font-family: Dotum;
 	font-weight: bold;
@@ -2790,7 +2790,7 @@ color:#244F80;
 }
 
 .notice_box p {
-	background: url(/images/agree_dot.gif) 20px 9px no-repeat;
+	background: url(../images/agree_dot.gif) 20px 9px no-repeat;
 	margin: 20px 20px 20px 0px;
 	padding-left: 30px;
 }
@@ -2810,7 +2810,7 @@ color:#244F80;
 .acc_list li {
 	float: left;
 	padding: 0 22px 0 21px;
-	background: url(/images/bar_1x13.gif) 0 2px no-repeat;
+	background: url(../images/bar_1x13.gif) 0 2px no-repeat;
 	font-weight: bold;
 	font-size: 13px;
 	color: #666;
@@ -2850,7 +2850,7 @@ color:#244F80;
 
 /*당구장불릿*/
 .point01 {
-	background: url(/images/ico_zip.png) 0 -46px no-repeat;
+	background: url(../images/ico_zip.png) 0 -46px no-repeat;
 	padding-left: 15px;
 }
 
@@ -2988,7 +2988,7 @@ color:#244F80;
 	margin-right: 14px;
 	position: relative;
 	padding-left: 8px;
-	background: url(/images/agree_dot.gif) 0 6px no-repeat;
+	background: url(../images/agree_dot.gif) 0 6px no-repeat;
 	font-weight: bold;
 }
 
@@ -3134,12 +3134,12 @@ color:#244F80;
 }
 
 .my .layer_pop .layer_header p {
-	background: url(/images/ico_zip.png) 0 -462px no-repeat;
+	background: url(../images/ico_zip.png) 0 -462px no-repeat;
 	color: #40531f;
 }
 
 .my .layer_pop .layer_close {
-	background: url(/images/ico_zip.png) 0 -537px no-repeat;
+	background: url(../images/ico_zip.png) 0 -537px no-repeat;
 }
 
 .cp .layer_pop .layer_header {
@@ -3147,12 +3147,12 @@ color:#244F80;
 }
 
 .cp .layer_pop .layer_header p {
-	background: url(/images/ico_zip.png) 0 -624px no-repeat;
+	background: url(../images/ico_zip.png) 0 -624px no-repeat;
 	color: #0e4c72;
 }
 
 .cp .layer_pop .layer_close {
-	background: url(/images/ico_zip.png) 0 -702px no-repeat;
+	background: url(../images/ico_zip.png) 0 -702px no-repeat;
 }
 
 .lo .layer_header {
@@ -3160,12 +3160,12 @@ color:#244F80;
 }
 
 .lo .layer_header p {
-	background: url(/images/ico_zip.png) 0 -786px no-repeat;
+	background: url(../images/ico_zip.png) 0 -786px no-repeat;
 	color: #70413a;
 }
 
 .lo .layer_close {
-	background: url(/images/ico_zip.png) 0 -879px no-repeat;
+	background: url(../images/ico_zip.png) 0 -879px no-repeat;
 }
 
 
@@ -3207,7 +3207,7 @@ color:#244F80;
 	float: left;
 	text-align: center;
 	margin-left: 10px;
-	background: url(/images/bg_rbox.png) 0 0 no-repeat;
+	background: url(../images/bg_rbox.png) 0 0 no-repeat;
 	width: 205px;
 	height: 90px;
 }
@@ -3255,7 +3255,7 @@ color:#244F80;
 
 .layer_pop .layer_body.confirm .confirm_notice .notice_list li {
 	padding-left: 7px;
-	background: url(/images/bul_2x2.gif) 0 8px no-repeat;
+	background: url(../images/bul_2x2.gif) 0 8px no-repeat;
 	line-height: 18px;
 	color: #757575;
 }
@@ -3292,7 +3292,7 @@ color:#244F80;
 	float: left;
 	font-size: 14px;
 	font-weight: bold;
-	background: url(/images/agree_dot.gif) 0 13px no-repeat;
+	background: url(../images/agree_dot.gif) 0 13px no-repeat;
 	padding-left: 8px;
 	width: 107px;
 	line-height: 32px;
@@ -3357,7 +3357,7 @@ color:#244F80;
 }
 
 .layer_body.warning .lo_alert p {
-	background: url(/images/agree_dot.gif) 27px 8px no-repeat;
+	background: url(../images/agree_dot.gif) 27px 8px no-repeat;
 	line-height: 22px;
 	margin: 0 20px 0 0;
 	padding-left: 37px;
@@ -3484,7 +3484,7 @@ color:#244F80;
 }
 
 .pop_body h3.bul_h3 {
-	background: url(/images/agree_dot.gif) 0 6px no-repeat;
+	background: url(../images/agree_dot.gif) 0 6px no-repeat;
 	padding-left: 8px;
 }
 
@@ -3558,7 +3558,7 @@ color:#244F80;
 }
 
 .bul_list li {
-	background: url(/images/agree_dot.gif) 0 10px no-repeat;
+	background: url(../images/agree_dot.gif) 0 10px no-repeat;
 	font-size: 14px;
 	padding-left: 9px;
 	line-height: 22px;
@@ -4211,7 +4211,7 @@ ul.sub_menu li.on a {
 
 #sec-02 .news-list-area .contents-container ul.item-list--ul li.item-list--li .news-text-wrapper .date::before {
 	display: inline-block;
-	background: url(/images/ico_clock.png) no-repeat 0px 0px;
+	background: url(../images/ico_clock.png) no-repeat 0px 0px;
 	content: "";
 	height: 11px;
 	width: 13px;
