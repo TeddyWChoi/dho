@@ -90,7 +90,7 @@
 					<p class="play-btn"><a href="#"><img src="./images/btn_play.png"></a></p>
 					<div class="title">
 						<p>UNCHARTED WATERS ONLINE</p>
-						<h1 class="">로그인</h1>
+						<h1 class="">다운로드</h1>
 					</div>
 				</div>
 
@@ -101,32 +101,89 @@
 
 		<!-- CONTAINER s -->
 		<div id="container">
-			
 
-		
-			<div class="inner">
-                <div class="login_wrap">
-                    <p><img src="./images/logo_dho_big.png"></p>
-                    <div>
-                       <p><input placeholder=" 아이디" type="text" id="id" title="" style="width:400px" /></p>
-                        <p><input placeholder=" 비밀번호"  type="text" id="password" title="" style="width:400px" /></p>
-                        <input type="checkbox" name="allAgree" id="allCheck"><label for="allCheck">아이디 저장</label>
-                        <a href="#">아이디 찾기/비밀번호 찾기</a>
+            <div id="CJGameDown" class="inner">
+	    
+                <!-- game download -->
+                <div class="dwn">
+                    <h3><em>게임 다운로드</em></h3>
+                    <div class="bg1">
+                        <dl class="d1">
+                            <dt><a onclick="GameDownload('1');return false;"><em>일반 다운로드</em></a></dt>
+                            <dd><h4>일반 다운로드란?</h4>
+                            <span>게임이 시작되지 않을 경우, 일반 다운로드를 통해<br>게임을 설치해 주시면 됩니다.<br><br>
+                            내 PC가 게임을 실행할 수 있는 사양인지<br><a href="#" onclick="Util.link.pcStatus();return false;">[내 PC사양 확인&amp;드라이버 다운받기]</a>를 통해<br>확인해 주세요.</span></dd>
+                        </dl>
+                        <dl class="d2">
+                            <dt><a onclick="GameDownload('2');return false;"><em>초고속 다운로드</em></a></dt>
+                            <dd><h4>초고속 다운로드란?</h4>
+                            <span>전송속도와 안정성이 높은 다운로드 방식으로<br>일반 다운로드와 파일의 차이는 없습니다.</span></dd>
+                            <dd class="bg2"><span>‘초고속 다운로드 동의’가 선택된<br>상태에서 설치를 시작하셔야 합니다.</span></dd>
+                        </dl>
                     </div>
-                  
-                    <p><img src="./images/captcha.png"></p>
-                    <p class="loan_btn">
-                        <a href="#" class="btn_set btnOran gotoBig "><span>로그인</span></a>
-                        <a href="#" class="btn_set btnGy gotoBig "><span>회원가입</span></a>
-                    </p>
-                   
-						
-				</div>
-						
-			</div>
-
-		</div>
-		<!-- CONTAINER e -->
+                </div>
+                <!--// game download -->
+                
+                <!-- patch download -->
+                <div class="patch">
+                    <h3><em>수동패치 다운로드</em></h3>
+                    <div class="bg1">
+                        <a onclick="" class="btn"><em>수동 패치 다운로드</em></a>
+                        <div class="txt">패치 버전을 설치하기 전에 권장사양과 Direct X 버전을 확인 하시기 바랍니다.<br>
+                        동시에 많은 인원이 다운로드를 시도할 경우 다운로드가 원할하지 않을 수 있습니다.</div>                                 
+                    </div>              
+                </div>
+                <!--// patch download -->
+        
+                <!-- system -->
+                <div class="stm">
+                    <h3><em>시스템 권장사양</em></h3>                  
+                    <table class="tb">
+                    <colgroup><col width="191"><col width="*">
+                    </colgroup><tbody><tr>
+                        <th>항목</th>
+                        <th class="none">권장사양</th>
+                    </tr>   
+                    <tr>
+                        <td><em>운영체계</em></td>
+                        <td class="none">Windows XP(SP2 이후), Windows Vista, Windows 7</td>
+                    </tr>
+                    <tr>
+                        <td><em>CPU</em></td>
+                        <td class="none">팬티엄3-800MHz 이상</td>
+                    </tr>
+                    <tr>
+                        <td><em>그래픽카드</em></td>
+                        <td>DirectX 9.0c 이상 대응 (VRAM : 32MB 이상)</td>
+                    </tr>
+                    <tr>
+                        <td><em>RAM</em></td>
+                        <td>256MB 이상</td>
+                    </tr>
+                    <tr>
+                        <td><em>하드디스크</em></td>
+                        <td>8.7GB 이상의 빈공간</td>
+                    </tr>
+                    <tr>
+                        <td><em>사운드카드</em></td>
+                        <td>16비트 스테레오 44KHz WAVE 형식을 재생할 수 있는 사운드카드</td>
+                    </tr>
+                    <tr>
+                        <td><em>디스플레이</em></td>
+                        <td>800x600 픽셀이상, HighColor 표시 가능한 디스플레이</td>
+                    </tr>
+                    <tr>
+                        <td><em>네트워크</em></td>
+                        <td>1M bps 이상속도 필요</td>
+                    </tr>
+                    </tbody></table>
+                    <!-- <div class="txt"><strong>대항해시대</strong>에서는 회원님의 PC사양이 게임을 이용하기에 알맞은지 확인해 드립니다.<br> 아래 <em>내 PC사양 확인</em> 버튼을 클릭하시면 적합한 드라이버까지 안내해 드립니다.<br>
+                    <a href="#" onclick="Util.link.pcStatus();return false;" class="my"><dfn>내 PC사양 확인 &amp; 드라이버 다운로드</dfn></a></div> -->
+                </div>
+                <!--// system -->
+                
+            </div>
+			<!-- CONTAINER e -->
 		</div>
 		<!-- FOOTER s -->
 		<div id="footer">
@@ -225,4 +282,5 @@
 		<!-- FOOTER e -->
 	</div><!-- //wrap -->
 </body>
+
 </html>
