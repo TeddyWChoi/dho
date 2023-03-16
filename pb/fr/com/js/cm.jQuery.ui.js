@@ -124,7 +124,8 @@ $(function(){
 	var $listFag = $('.list_faq'),
 		$listFagLi = $listFag.find('li'),
 		$listFagA = $listFagLi.find('a'),
-		$answer = $('.answer');
+		$answer = $('.answer'),
+		$arrow = $listFag.find('.arrow');
 
 	$listFagA.on('click', function(){
 		var $thisParents = $(this).parent().parent(),
@@ -137,6 +138,8 @@ $(function(){
 		if($thisParents.is('.on')){
 			$listFagLi.removeClass('on');
 			$listFagA.attr('title', '답변 열기');
+			$arrow.text('펼쳐보기');
+			$arrow.css('background','url(/pb/fr/img/com/ico_arrow01.png) 0 12px no-repeat');
 			$answer.css('border-top','none');
 			$answer.stop().animate({'height': '0',
 				'padding-top': '0'
@@ -148,10 +151,12 @@ $(function(){
 			
 			$listFagLi.removeClass('on');
 			$thisParents.addClass('on');
-
+			$arrow.text('펼쳐보기');
+			$arrow.css('background','url(/pb/fr/img/com/ico_arrow01.png) 0 12px no-repeat');
 			$listFagA.attr('title', '답변 열기');
 			$(this).attr('title', '답변 닫기');
-			
+			$(this).find('.arrow').text('닫기');
+			$(this).find('.arrow').css('background','url(/pb/fr/img/com/ico_arrow01.png) 0 -12px no-repeat');
 			$answer.stop().animate({
 				'height': '0',
 				'padding-top': '0'
@@ -533,10 +538,10 @@ $(function(){
 
 	/*배너롤링*/
 	var bannerArry = [
-		{src:'/pb/fr/img/com/temp/img_banner_temp_2.png', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'/pb/fr/img/com/temp/img_banner_temp_2.png', alt:'기획확인 요망2', dataLink: '#'},
-		{src:'/pb/fr/img/com/temp/img_banner_temp3.png', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'/pb/fr/img/com/temp/img_banner_temp4.png', alt:'기획확인 요망2', dataLink: '#'}
+		{src:'/pb/fr/img/main/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
+		{src:'/pb/fr/img/main/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'},
+		{src:'/pb/fr/img/main/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
+		{src:'/pb/fr/img/main/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'}
 
 	];
 	$.fn.slideCol1 = function(data){
@@ -552,13 +557,13 @@ $(function(){
 
 		// 슬라이드할 이미지의 크기를 설정하세요
 
-		var widthNum = 990 // 이미지 가로 값
-		var heightNum = 150 // 이미지 세로 값
+		var widthNum = 790 // 이미지 가로 값
+		var heightNum = 270 // 이미지 세로 값
 
 		// 페이징 버튼의 height와 위치, 버튼간의 간격을 설정하세요
 
 		var contHeight = 15 // 페이징버튼 이미지의 높이(height)
-		var topNum = 117 // 페이징버튼 top값
+		var topNum = 250 // 페이징버튼 top값
 		var btnLeft // 페이징 버튼 전체 right 값
 		var btnMargin = 15 // 페이징버튼 간격
 
@@ -566,7 +571,7 @@ $(function(){
 
 		// 플레이스탑 버튼의 위치를 설정하세요
 
-		var ps_btn_top = 117 //플레이 스탑버튼 top 값
+		var ps_btn_top = 250 //플레이 스탑버튼 top 값
 		var ps_btn_right = 0 // 플레이 스탑버튼 left 값
 
 

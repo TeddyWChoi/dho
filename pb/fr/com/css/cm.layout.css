@@ -19,11 +19,13 @@
 
 /* 공통 레이아웃 */
 /** 01.14수정 **/
-.inner{width:990px; margin:0 auto;}
-.main .inner {min-width:50%;}
+.inner{width:1200px; margin:0 auto;}
+.inner2{width:890px; margin:0 auto;}
+
+/* .main .inner {min-width:50%;} */
 /** 01.14 수정 **/
 .pop_area{position:relative;z-index:100;}
-.main #header{position:relative;z-index:50;width:100%;height:102px;}
+.main #header{position:relative;z-index:50;width:100%;}
 .sub #header{width:100%;height:125px;}
 
 /* 메인 레이아웃*/
