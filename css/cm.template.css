@@ -3015,7 +3015,7 @@ color:#244F80;
 
 /*대출신청 스텝*/
 .step_loan {
-	background: url(./images/step.png) no-repeat;
+	background: url(../images/step.png) no-repeat;
 	height: 67px;
 	width: 315px;
 	margin:0 auto;
