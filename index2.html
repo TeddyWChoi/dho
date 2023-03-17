@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="imagetoolbar" content="no" />
 	<meta name="Author" content="http://www.welcomeloan.co.kr" />
-		<meta name="keywords" content="대항해시대 온라인" />
+	<meta name="keywords" content="대항해시대 온라인" />
 	<meta name="description" content="대항해시대 온라인" />
 	<title>대항해시대 온라인</title>
 	<link rel="stylesheet" type="text/css" href="./css/cm.import.css" />
@@ -34,8 +34,9 @@
 								alt="파파야플레이 로고" /></a></p>
 					<ul>
 						<li><a href="./cashshop.html" class="cashshop">캐쉬충전</a></li>
-						<li><a href="./register1.html">회원가입</a></li>
-						<li><a href="./login.html">로그인</a></li>
+						<!-- <li><a href="./register1.html">회원가입</a></li> -->
+                        <li><a href="./mypage.html">마이페이지</a></li>
+                        <li><a href="#">로그아웃</a></li>
 						<!-- <li><a href="#">고객센터</a></li> -->
 					</ul>
 				</div>
@@ -491,42 +492,24 @@
 					</div>
 
 					<div class="g-login">
-						<!-- 개인화영역 -->
-						<div id="divLogin" name="divLogin">
-							<form id="frmLogin" name="frmLogin" action="" method="post">
-								<fieldset id="divBeforeLogin">
-									<legend>로그인전</legend>
+                        <div class="character_info">
+                            <p><img src="./images/flag_1.gif"><span class="board_character">뭐라카이군도</span></p>
+                            <span class="character_server">헬레네 서버</span>
+                            <dl>
+                                <dt>직업</dt>
+                                <dd class="second">낚시꾼</dd>
+                                <dt class="third">레벨</dt>
+                                <dd>모험:<span class="red_num">27</span> | 교역:<span class="red_num">41</span> | 군인:<span class="red_num">16</span></dd>
+                                <dt>작위</dt>
+                                <dd>육동훈작사</dd>
+                                <dt>길드</dt>
+                                <dd>가입한 길드가 없습니다.</dd>
+                            </dl>
+                            <select title="나의 대표 캐릭터 선택" style="width:350px">
+                                <option value="">나의 대표 캐릭터 선택</option>
+                            </select>
+                        </div>
 
-									<div class="lg-box">
-										<dl>
-											<dt class="lg-id-txt"><label for="login-id">아이디</label></dt>
-											<dd class="lg-id"><span><input placeholder=" 아이디" type="text" id="login-id"
-														name="Ecom_User_ID" maxlength="12"
-														onkeydown="return _clf_onkeydown(0);"
-														onfocus="this.parentNode.className='ipt_focus'"
-														onblur="this.parentNode.className=(this.value!='')?'ipt_none':''"></span>
-											</dd>
-											<dt class="lg-pwd-txt"><label for="login-pwd">비밀번호</label></dt>
-											<dd class="lg-pwd"><span><input placeholder=" 비밀번호" type="password"
-														id="login-pwd" name="Ecom_User_Password" maxlength="30"
-														onkeydown="return _clf_onkeydown(1);checkCapsLock(event);"
-														onkeypress="_clf_keypress_pwlen(this);checkCapsLock(event);"
-														onfocus="this.parentNode.className='ipt_focus';checkCapsLock(event);"
-														onblur="this.parentNode.className=(this.value!='')?'ipt_none':'';checkCapsLock(event);"></span>
-											</dd>
-										</dl><button class="lg-btn" id="_clf_submit_button"
-											onclick="javascript:void(_clf_do_login());return false;"><em>로그인</em></button>
-										<!-- <div id="divCapsLock" class="lg_capslock"><span><strong>CapsLock</strong>이 켜져
-												있습니다.</span></div> -->
-									</div>
-									<div class="lg-register">
-										<a href="#">아이디 / 비밀번호 찾기</a>
-										<a href="#">회원가입</a>
-									</div>
-								</fieldset>
-							</form>
-						</div>
-						<!-- //개인화영역 -->
 						<div class="inven">
 							<a href="">대항해시대 <span>인벤가기</span></a>
 							<a href="">대항해시대 <span>조이가기</span></a>

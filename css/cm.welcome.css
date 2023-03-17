@@ -411,14 +411,48 @@
 
 .g-login {
     border: 1px solid #d5d5d5;
-    border-top: 0
+    border-top: 0;
+    background: #f3f4f3;
+    width:378px;
+    height:222px;
 }
+
+.g-login .character_info{
+   padding:10px 15px
+}
+.g-login .character_info p{
+    float:left;
+}
+.g-login .character_info dl{
+    clear:both;
+    margin-top:30px;
+    line-height:28px;
+}
+.g-login .character_info dl dt{
+    width:40px;
+    font-weight: 600;
+    float:left;
+}
+.g-login .character_info dl dd.second{
+    float:left;
+}
+.g-login .character_info dl dt.third{
+    margin-left:70px;
+}
+.g-login .character_info dl dd{
+   /* margin-left:50px; */
+}
+.character_server{float:right;}
+.g-login .character_info select{
+    margin-top:8px;
+}
+
 
 #divBeforeLogin {
     position: relative;
     width: 100%;
     height: 222px;
-    background: #f3f4f3
+   
 }
 
 #divBeforeLogin .lg_top {
