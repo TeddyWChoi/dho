@@ -1,11 +1,12 @@
 @charset "utf-8";
 
 /****************************************/
-/*	Name: 웰컴론
-/*	PART: RESET STYLE
+/*	Name: 대항해시대 온라인
+/*	PART: 대항해시대 온라인 STYLE
 /*	Version: 1.0
-/*	Author: [애드캡슐 퍼블리싱팀] 최웅, 윤정환
+/*	Author: Teddy
 /****************************************/
+
 
 /* basis Selector */
 html {width:100%; height:100%;}
@@ -34,7 +35,7 @@ label {cursor:pointer;}
 a {text-decoration:none;color:#444;}
 a:hover, a:active, a:focus{text-decoration:none; /* color:#444; */}
 select{height:36px; padding:4px; vertical-align:middle; font-size:16px; color:#444; border:1px solid #e6e6e6}
-
+#footer{background: #EAEAEB;margin-top:70px;}
 
 /****************************/
 /* Common Style             */
