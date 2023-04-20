@@ -1665,7 +1665,7 @@ color:#244F80;
 .board_view .td_cont.reply {
 	position: relative;
 	/* background: url(/pb/fr/img/cp/bg_reply_top.jpg) 0 0 no-repeat; */
-	width: 1200px;
+	/* width: 1200px; */
 	padding: 0;
 	border: none;
 }
@@ -1743,7 +1743,7 @@ color:#244F80;
 
 .board_view .td_cont.reply .var_box {
 	/* background: url(/pb/fr/img/cp/bg_reply_bottom.jpg) 0 bottom no-repeat; */
-	width: 1200px;
+	/* width: 1200px; */
 }
 
 .board_view .td_cont.reply .var_box_inner {
