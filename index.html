@@ -46,29 +46,30 @@
                     <ul class="dho-gnb">
                         <li>
                             <a href="#">항해공지</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <li><a href="./about.html">게임소개</a></li>
                                 <li><a href="./notice_list.html">공지사항</a></li>
                                 <li><a href="./event_list.html">이벤트</a></li>
+								<li><a href="#">초보자 가이드</a></li>
                                 <li><a href="./episode_list.html">확장팩소개</a></li>
                             </ul>
 
                         </li>
                         <li><a href="#">대항해샵</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <!--<li><a href="#">아이템</a></li>-->
                                 <li><a href="./item.html">아이템</a></li>
                                 <li><a href="./treasure.html">트레져박스</a></li>
                             </ul>
                         </li>
                         <li><a href="#">선원광장</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <li><a href="./free_board_list.html">자유게시판</a></li>
-                                <li><a href="./knowledge_board_list.html">지식인</a></li>
+                                <!-- <li><a href="./knowledge_board_list.html">지식인</a></li> -->
                             </ul>
                         </li>
                         <li><a href="#">고객지원</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <li><a href="./faq.html">FAQ</a></li>
                                 <li><a href="./inquiry.html">1:1문의</a></li>
                                 <li><a href="./my_support.html">MY 고객지원</a></li>
@@ -78,12 +79,18 @@
                     </ul>
                     <p class="download"><a href="./download.html">다운로드</a></p>
                 </div>
-                <div class="gnb-bg"></div>
+                <div class="gnb_bg"></div>
             </div>
 			<h1 class="hide">대항해시대 온라인</h1>
-			<section class="top-img">
+			<!-- 탑 슬라이더로 교체요망 -->
+			<section class="top_img">
+				<div class="slider_dot">
+					<span class="on"></span>
+					<span></span>
+					<span></span>
+				</div>
 				<div class="inner">
-					<p class="play-btn"><a href="#"><img src="./images/btn_play.png"></a></p>
+					<p class="play_btn"><a href="#"><img src="./images/btn_play.png"></a></p>
 				</div>
 			</section>
 		</div><!-- //header -->
@@ -97,11 +104,11 @@
 
 			<!-- aside s-->
 
-			<section id="aside" class="g-group">
-				<div id="divAsideRank" class="g-rank">
+			<section id="aside" class="g_group">
+				<div id="divAsideRank" class="g_rank">
 					<h3><strong>국가순위</strong><span class="time"><em>03</em>월 <em>11</em>일 <em>23</em>시
 							<span>기준</span></span></h3>
-					<div id="divRankTab" class="g-tab k1">
+					<div id="divRankTab" class="g_tab k1">
 						<span class="tc0"><a href="#" class="on"><em>에이레네</em></a></span>
 						<span class="tc1"><a href="#"><em>헬레네</em></a></span>
 						<span class="tc2"><a href="#"><em>폴라리스</em></a></span>
@@ -235,7 +242,7 @@
 				<div id="divAsideCity" class="g_city">
 					<h3><strong>중심도시</strong><span class="time"><em>03</em>월 <em>06</em>일 <em>23</em>시
 							<span>기준</span></span></h3>
-					<div id="divCityTab" class="g-tab k1">
+					<div id="divCityTab" class="g_tab k1">
 						<span class="tc0"><a href="#" class="on"><em>에이레네</em></a></span>
 						<span class="tc1"><a href="#"><em>헬레네</em></a></span>
 						<span class="tc2"><a href="#"><em>폴라리스</em></a></span>
@@ -453,7 +460,7 @@
 
 			<!-- aside e-->
 
-			<section class="inner login-slider-section">
+			<section class="inner login_slider_section">
 				<!-- POPUP s -->
 				<div class="pop_area">
 
@@ -465,8 +472,8 @@
 				<!-- //POPUP e -->
 
 				<!-- login s-->
-				<div id="login-box">
-					<div class="g-hot">
+				<div id="login_box">
+					<div class="g_hot">
 						<strong>핫이슈</strong> <span class="bar">|</span>
 						<div id="divHotIssue" class="bx" style="overflow: hidden; position: relative; height: 20px;">
 							<ul class="slides"
@@ -487,7 +494,7 @@
 						</div>
 					</div>
 
-					<div class="g-login">
+					<div class="g_login">
 						<!-- 개인화영역 -->
 						<div id="divLogin" name="divLogin">
 							<form id="frmLogin" name="frmLogin" action="" method="post">
@@ -496,28 +503,29 @@
 
 									<div class="lg-box">
 										<dl>
-											<dt class="lg-id-txt"><label for="login-id">아이디</label></dt>
-											<dd class="lg-id"><span><input placeholder=" 아이디" type="text" id="login-id"
+											<dt class="lg_id_txt"><label for="login_id">아이디</label></dt>
+											<dd class="lg_id"><span><input placeholder=" 아이디" type="text" id="login_id"
 														name="Ecom_User_ID" maxlength="12"
 														onkeydown="return _clf_onkeydown(0);"
 														onfocus="this.parentNode.className='ipt_focus'"
 														onblur="this.parentNode.className=(this.value!='')?'ipt_none':''"></span>
 											</dd>
-											<dt class="lg-pwd-txt"><label for="login-pwd">비밀번호</label></dt>
+											<dt class="lg_pwd_txt"><label for="login_pwd">비밀번호</label></dt>
 											<dd class="lg-pwd"><span><input placeholder=" 비밀번호" type="password"
-														id="login-pwd" name="Ecom_User_Password" maxlength="30"
+														id="login_pwd" name="Ecom_User_Password" maxlength="30"
 														onkeydown="return _clf_onkeydown(1);checkCapsLock(event);"
 														onkeypress="_clf_keypress_pwlen(this);checkCapsLock(event);"
 														onfocus="this.parentNode.className='ipt_focus';checkCapsLock(event);"
 														onblur="this.parentNode.className=(this.value!='')?'ipt_none':'';checkCapsLock(event);"></span>
 											</dd>
-										</dl><button class="lg-btn" id="_clf_submit_button"
+										</dl><button class="lg_btn" id="_clf_submit_button"
 											onclick="javascript:void(_clf_do_login());return false;"><em>로그인</em></button>
 										<!-- <div id="divCapsLock" class="lg_capslock"><span><strong>CapsLock</strong>이 켜져
 												있습니다.</span></div> -->
 									</div>
-									<div class="lg-register">
-										<a href="#">아이디 / 비밀번호 찾기</a>
+									<div class="lg_register">
+										<a href="#">아이디</a>
+										<a href="#">비밀번호 찾기</a>
 										<a href="#">회원가입</a>
 									</div>
 								</fieldset>
@@ -536,124 +544,124 @@
 
 		
 			<!--event s-->
-			<section class="inner event-section">
-				<div class="noti-title">
+			<section class="inner event_section">
+				<div class="noti_title">
 					<a href="/kr/bbs/notice/notice_kr/1	"><strong>이벤트</strong></a>
-					<a class="view-all" href="#">+ 더보기</a>
+					<a class="view_all" href="#">+ 더보기</a>
 				</div>
-				<article class="featured-wrapper"><a
+				<article class="featured_wrapper"><a
 						href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4392"
-						class="featured-left-container">
-						<div class="featured-img-wrapper"><img
-								src="https://cdn.papayaplay.com/SF/1678/3363/8597/main_2.jpg" class="featured-img">
+						class="featured_left_container">
+						<div class="featured_img_wrapper"><img
+								src="https://cdn.papayaplay.com/SF/1678/3363/8597/main_2.jpg" class="featured_img">
 						</div>
-						<div class="left featured-content">
+						<div class="left featured_content">
 
-							<div class="featured-title">새로운 시즌 업데이트 챕터 3.5</div>
+							<div class="featured_title">새로운 시즌 업데이트 챕터 3.5</div>
 							<div class="featured-desc">곧 다가올 이벤트를 확인하세요.</div>
 
 						</div>
 					</a>
-					<div class="featured-right-container"><a
+					<div class="featured_right_container"><a
 							href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=1818"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1672/2761/0549/0112_gacha_box.jpg"
-									class="featured-img"></div>
-							<div class="featured-content">
+									class="featured_img"></div>
+							<div class="featured_content">
 
-								<div class="featured-title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
-								<div class="featured-date">2023-02-21</div>
+								<div class="featured_title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
+								<div class="featured_date">2023-02-21</div>
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4315"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1674/1135/0681/0118_LUNAR_NEW_YEAR_SPECIALS.jpg"
-									class="featured-img"></div>
-							<div class="featured-content">
+									class="featured_img"></div>
+							<div class="featured_content">
 
-								<div class="featured-title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
-								<div class="featured-date">2023-02-21</div>
+								<div class="featured_title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
+								<div class="featured_date">2023-02-21</div>
 
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4271"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1671/7581/9799/new_year_pkg.jpg"
-									class="featured-img"></div>
-							<div class="featured-content">
+									class="featured_img"></div>
+							<div class="featured_content">
 
-								<div class="featured-title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
-								<div class="featured-date">2023-02-21</div>
+								<div class="featured_title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
+								<div class="featured_date">2023-02-21</div>
 
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4227"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1669/2617/0814/bs_banner.jpg"
-									class="featured-img">
+									class="featured_img">
 							</div>
-							<div class="featured-content">
+							<div class="featured_content">
 
-								<div class="featured-title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
-								<div class="featured-date">2023-02-21</div>
+								<div class="featured_title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
+								<div class="featured_date">2023-02-21</div>
 
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4224"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1669/1646/1672/blackfriday_sale.jpg"
-									class="featured-img"></div>
-							<div class="featured-content">
+									class="featured_img"></div>
+							<div class="featured_content">
 
-								<div class="featured-title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
-								<div class="featured-date">2023-02-21</div>
+								<div class="featured_title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
+								<div class="featured_date">2023-02-21</div>
 
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4190"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1666/9183/9132/BS_SEA_halloween_payback.png"
-									class="featured-img"></div>
-							<div class="featured-content">
+									class="featured_img"></div>
+							<div class="featured_content">
 
-								<div class="featured-title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
-								<div class="featured-date">2023-02-21</div>
+								<div class="featured_title">귀족 특권 항해사 여관 등장 확률업 이벤트 안내</div>
+								<div class="featured_date">2023-02-21</div>
 
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4147"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1663/8076/2177/fall_sale(공통).jpg"
-									class="featured-img"></div>
-							<div class="featured-content">
+									class="featured_img"></div>
+							<div class="featured_content">
 
-								<div class="featured-title">Fall Sale</div>
-								<div class="featured-date">14 Oct, 2022</div>
+								<div class="featured_title">Fall Sale</div>
+								<div class="featured_date">14 Oct, 2022</div>
 
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=3958"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1653/0279/3245/fb_banner.jpg"
-									class="featured-img">
+									class="featured_img">
 							</div>
-							<div class="featured-content">
+							<div class="featured_content">
 
-								<div class="featured-title">Championship Tussle 2022</div>
-								<div class="featured-date">23 Aug, 2022</div>
+								<div class="featured_title">Championship Tussle 2022</div>
+								<div class="featured_date">23 Aug, 2022</div>
 
 							</div>
 						</a><a href="https://bs.sea.papayaplay.com/bssea.do?tp=news.view&amp;postid=4084"
-							class="featured-list-wrapper">
-							<div class="featured-img-wrapper"><img
+							class="featured_list_wrapper">
+							<div class="featured_img_wrapper"><img
 									src="https://cdn.papayaplay.com/SF/1660/8954/3963/0819 Sale.png"
-									class="featured-img">
+									class="featured_img">
 							</div>
-							<div class="featured-content">
+							<div class="featured_content">
 
-								<div class="featured-title">Summer Flash Sales</div>
-								<div class="featured-date">19 Aug, 2022</div>
+								<div class="featured_title">Summer Flash Sales</div>
+								<div class="featured_date">19 Aug, 2022</div>
 
 							</div>
 						</a></div>
@@ -663,46 +671,46 @@
 			<!--event e-->
 
 			<!-- board s -->
-			<section class="inner main-board">
+			<section class="inner main_board">
 
 				
 					<div>
-						<div class="noti-title">
+						<div class="noti_title">
 							<a href="./about.html"><strong>항해공지</strong></a>
-							<a class="view-all" href="#">+ 더보기</a>
+							<a class="view_all" href="#">+ 더보기</a>
 						</div>
 
 						<!-- start -->
 
 
-						<ul class="board-list noti-fixed">
+						<ul class="board_list noti_fixed">
 							<!-- 최대 20개까지 노출 -->
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678441301191007145"
+								<a class="all_link bbs_detail_link" href="#" article-id="1678441301191007145"
 									data-status="NORMAL" data-bbs-id="update_kr">
 									<p>[업데이트]03월 15일(수) 정기 점검 내용 안내 (03/10 19:10 수정)</p>
 								</a>
 							</li>
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678331097653021849"
+								<a class="all_link bbs_detail_link" href="#" article-id="1678331097653021849"
 									data-status="NORMAL" data-bbs-id="event_kr">
 									<p>[이벤트]200일 기념 7일 출석 이벤트 안내</p>
 								</a>
 							</li>
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678082530946002617"
+								<a class="all_link bbs_detail_link" href="#" article-id="1678082530946002617"
 									data-status="NORMAL" data-bbs-id="event_kr">
 									<p>[이벤트]도전! 오리진 OX 퀴즈 이벤트 안내</p>
 								</a>
 							</li>
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1677736113136016450"
+								<a class="all_link bbs_detail_link" href="#" article-id="1677736113136016450"
 									data-status="NORMAL" data-bbs-id="notice_kr">
 									<p>[공지사항][창해] 서버 안정화 작업 안내</p>
 								</a>
 							</li>
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1677568000920024656"
+								<a class="all_link bbs_detail_link" href="#" article-id="1677568000920024656"
 									data-status="NORMAL" data-bbs-id="notice_kr">
 									<p>[공지사항][창해] 투자 정산 중복 지급 현상 관련 회수 안내 (완료)</p>
 								</a>
@@ -710,12 +718,12 @@
 						</ul>
 
 
-						<ul class="board-list">
+						<ul class="board_list">
 
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678175260998006864"
+								<a class="all_link bbs_detail_link" href="#" article-id="1678175260998006864"
 									data-status="NORMAL" data-bbs-id="notice_kr">
-									<div class="noti-tit">
+									<div class="noti_tit">
 										<div>
 											<p>[창해] 03월 08일 (수) 신규 상품 추가 안내 (03/08 19:23 수정)</p>
 											<span class="icon-img"></span>
@@ -725,9 +733,9 @@
 							</li>
 
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678175254371003516"
+								<a class="all_link bbs_detail_link" href="#" article-id="1678175254371003516"
 									data-status="NORMAL" data-bbs-id="notice_kr">
-									<div class="noti-tit">
+									<div class="noti_tit">
 										<div>
 											<p>[일반] 03월 08일 (수) 신규 상품 추가 안내 (03/08 19:23 수정)</p>
 											<span class="icon-img"></span>
@@ -737,9 +745,9 @@
 							</li>
 
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678087920565021473"
+								<a class="all_link bbs_detail_link" href="#" article-id="1678087920565021473"
 									data-status="NORMAL" data-bbs-id="notice_kr">
-									<div class="noti-tit">
+									<div class="noti_tit">
 										<div>
 											<p>03/06(월) PC 클라이언트 업데이트 안내</p>
 											<span class="icon-img"></span>
@@ -749,9 +757,9 @@
 							</li>
 
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1677736113136016450"
+								<a class="all_link bbs_detail_link" href="#" article-id="1677736113136016450"
 									data-status="NORMAL" data-bbs-id="notice_kr">
-									<div class="noti-tit">
+									<div class="noti_tit">
 										<div>
 											<p>[창해] 서버 안정화 작업 안내</p>
 											<span class="icon-img"></span>
@@ -761,9 +769,9 @@
 							</li>
 
 							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1677568000920024656"
+								<a class="all_link bbs_detail_link" href="#" article-id="1677568000920024656"
 									data-status="NORMAL" data-bbs-id="notice_kr">
-									<div class="noti-tit">
+									<div class="noti_tit">
 										<div>
 											<p>[창해] 투자 정산 중복 지급 현상 관련 회수 안내 (완료)</p>
 											<span class="icon-img"></span>
@@ -774,137 +782,66 @@
 						</ul>
 						<!-- end -->
 					</div>
-					<div>
-						<div class="noti-title">
-							<a href="/kr/bbs/community/community_kr/1"><strong>대항해 지식인</strong></a>
-							<a class="view-all" href="#">+ 더보기</a>
+					<div class="item_div">
+						<div class="item_title">
+							<a href="/kr/bbs/community/community_kr/1"><strong>베스트 아이템</strong></a>
+							<a class="view_all" href="#">+ 더보기</a>
 						</div>
 
 						<!-- start -->
-
-						<ul class="board-list">
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678471155424000163"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>업뎃? 버그수정? 그딴게 의미가있나요?</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678468114148004670"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>자동보급은 또 미뤄졌냐?</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678455103065025681"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>버그 기회포착 미발동 버그</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678452201151031793"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>자동 보급 3월에 한다며?</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678447295724012532"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>해적 개체수 늘어서 좋았는데 왜 줄입니까?</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678445957272024849"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>난입을 줄이려면 코딩을해서 난입안하게 수정을해야지 해적수를 왜줄이냐 ,,,</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678445007041001477"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>선단 75 해제이야기없네</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678436986134022157"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>업데이트 내역 아직임?</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678435330232024267"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>벌써 5시인데? 오늘 야근하면서 공지 올릴거니?</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a class="all-link bbs-detail-link" href="#" article-id="1678432329159007571"
-									data-status="NORMAL" data-bbs-id="community_kr">
-									<div class="noti-tit">
-										<div>
-											<p>벌써 4시인데? 오늘 안 올릴거니??</p>
-
-										</div>
-									</div>
-								</a>
-							</li>
-						</ul>
+						<div class="item_box">
+							<div class="top">
+								<div class="thmb"><em><img src="https://c2.img.netmarble.kr/web/6N/2019/12/311045/2.png" width="64px" height="64px" alt=""></em></div>
+								<dl>
+									<dt><strong>소속 변경 신청서</strong> <img src="//c3.img.netmarble.kr/web/cp2/dho/v/IMG/shop/ic_service.gif" alt="부가서비스"></dt>
+									<dd class="tx">스킬 활용법이 쓰여진 종이조각.
+										남대서양, 카리브해, 아프리가 동부, 홍해, 인도양 지역 도시에 임시 입항을 허가하는 증서</dd>
+									<dd class="price"><strong>가격 :</strong> <em>1,100원</em></dd>
+								</dl>
+							</div>
+							<div class="detail">
+								<div class="item_detail">
+									<span class="blue_bg">거래 불가</span>
+									<span class="">파기 불가</span>
+									<span class="">1시간</span>
+									<span class="blue_bg">5시간</span>
+									<span class="">1일</span>
+									<span class="">7일</span>
+									<span class="blue_bg">1회 소모성</span>
+								</div> 
+								<div class="item_detail">
+									<span class="">거래가능</span>
+									<span class="blue_bg">파기가능</span>
+									<span class="">15일</span>
+									<span class="">30일</span>
+									<span class="">영구</span>
+									<span class=""></span>
+									<span class="">지속성</span>
+								</div> 
+							</div>
+							<div class="bottom">
+								<ul>
+									<li>사용 후 성공 판정 시 무기의 공격력이 +1만큼 상승. 중복 사용 가능하며 강화 수치가 일정 수치를 넘어가면 실패 또는 파괴 가능성 있음.</li>
+									<li>무기 아이템의 기본 공격력 +100 초과 또는 공격력 250이상의 아이템, 공격력이 없는 무기는 강화 불가</li>
+								</ul>
+								<dl>
+									<dt>주의사항</dt>
+									<dd>스킬 랭크 최대치가 1인 스킬과 통상탄방어, 2연탄방어, 포도탄 방어, 쇄탄 방어, 화염탄 방어, 연막탄 방어, 통상탄 강화, 2연타 강화, 백병 지휘, 동아시아 회항은 부여 불가</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="slider_dot">
+							<span class="on"></span>
+							<span></span>
+							<span></span>
+						</div>
 						<!-- end -->
+						<div class="cashshop_banner">
+							<a href="#">
+								<img src="./images/img_cashshop_banner.jpg">
+							</a>
+						</div>
+						
 					</div>
 				
 

@@ -538,10 +538,10 @@ $(function(){
 
 	/*배너롤링*/
 	var bannerArry = [
-		{src:'./images/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'./images/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'},
-		{src:'./images/img_pkg.jpg', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'./images/img_pkg.jpg', alt:'기획확인 요망2', dataLink: '#'}
+		{src:'./images/img_pkg.jpg', alt:'1', dataLink: '#'},
+		{src:'./images/img_pkg.jpg', alt:'2', dataLink: '#'},
+		{src:'./images/img_pkg.jpg', alt:'1', dataLink: '#'},
+		{src:'./images/img_pkg.jpg', alt:'2', dataLink: '#'}
 
 	];
 	$.fn.slideCol1 = function(data){

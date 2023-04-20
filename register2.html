@@ -47,29 +47,30 @@
                     <ul class="dho-gnb">
                         <li>
                             <a href="#">항해공지</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <li><a href="./about.html">게임소개</a></li>
                                 <li><a href="./notice_list.html">공지사항</a></li>
                                 <li><a href="./event_list.html">이벤트</a></li>
+								<li><a href="#">초보자 가이드</a></li>
                                 <li><a href="./episode_list.html">확장팩소개</a></li>
                             </ul>
 
                         </li>
                         <li><a href="#">대항해샵</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <!--<li><a href="#">아이템</a></li>-->
                                 <li><a href="./item.html">아이템</a></li>
                                 <li><a href="./treasure.html">트레져박스</a></li>
                             </ul>
                         </li>
                         <li><a href="#">선원광장</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <li><a href="./free_board_list.html">자유게시판</a></li>
-                                <li><a href="./knowledge_board_list.html">지식인</a></li>
+                                <!-- <li><a href="./knowledge_board_list.html">지식인</a></li> -->
                             </ul>
                         </li>
                         <li><a href="#">고객지원</a>
-                            <ul class="dho-lnb">
+                            <ul class="dho_lnb">
                                 <li><a href="./faq.html">FAQ</a></li>
                                 <li><a href="./inquiry.html">1:1문의</a></li>
                                 <li><a href="./my_support.html">MY 고객지원</a></li>
@@ -79,12 +80,12 @@
                     </ul>
                     <p class="download"><a href="./download.html">다운로드</a></p>
                 </div>
-                <div class="gnb-bg"></div>
+                <div class="gnb_bg"></div>
             </div>
 
-			<section class="top-img2">
+			<section class="top_img2">
 				<div class="inner">
-					<p class="play-btn"><a href="#"><img src="./images/btn_play.png"></a></p>
+					<p class="play_btn"><a href="#"><img src="./images/btn_play.png"></a></p>
 					<div class="title">
 						<p>UNCHARTED WATERS ONLINE</p>
 						<h1 class="">회원가입</h1>
@@ -118,12 +119,12 @@
 							</div>
 						</div>
 						<div class="scBox">
-                            <p>* 표시는 반드시 입력하셔야 하는 항목입니다.</p>
+                            <!-- <p>* 표시는 반드시 입력하셔야 하는 항목입니다.</p> -->
 							<form action="" method="post">
 								<fieldset>
 									<legend>입력 필드</legend>
-									<table class="table_form" summary="기획확인 요망">
-										<caption>기획확인 요망</caption>
+									<table class="table_form" summary="">
+										<caption></caption>
 										<colgroup>
 											<col width="20%" />
 											<col width="80%" />
@@ -137,7 +138,7 @@
                                                 
 												<td>
 													<div class="td_cont">
-														<input type="text" id="id" style="width:198px" />
+														<input type="text" id="id" style="width:198px" /><a href="#" class="btn">중복체크</a>
 													</div>
 												</td>
 											</tr>
@@ -170,7 +171,7 @@
                                                 
 												<td>
 													<div class="td_cont">
-														<input type="text" id="nickName" style="width:198px" />
+														<input type="text" id="nickName" style="width:198px" /><a href="#" class="btn">중복체크</a>
 													</div>
 												</td>
 											</tr>
@@ -186,6 +187,8 @@
 															<option value="">016</option>
 														</select>
 												- <input type="text" title="휴대전화번호 중간자리를 입력하세요" style="width:148px"> - <input type="text" title="휴대전화번호 뒷자리를 입력하세요" style="width:148px">
+												<a href="#" class="btn">인증요청</a><br/>
+												<input type="text" placeholder=" 인증번호 입력" id="password" style="width:198px;margin-top:10px;" /> <a  style="margin-top:10px;" href="#" class="btn">확인</a>
 													</div>
 												</td>
 											</tr>
@@ -196,15 +199,45 @@
 												<td>
 													<div class="td_cont">
 														<input type="text" id="eMail1" title="이메일 주소 아이디를 입력하세요" style="width:198px"> @
+														<input type="text" title="이메일 주소를 입력하세요" style="width:198px">
 														<select title="이메일 주소를 선택하세요" style="width:198px">
 															<option value="">선택하세요</option>
 															<option value="">선택하세요</option>
-														</select>
-														<input type="text" title="이메일 주소를 입력하세요" style="width:198px">
+														</select><a href="#" class="btn">인증요청</a><br/>
+														<input type="text" placeholder=" 인증번호 입력" id="password" style="width:198px;margin-top:10px;" /> <a  style="margin-top:10px;" href="#" class="btn">확인</a>
+															</div>
+														</td>
 													</div>
 												</td>
 											</tr>
-											
+											<tr>
+												<th scope="row">
+													<span><label for="age">성별</label></span>
+												</th>
+												<td>
+													<div class="td_cont">
+														<select title="성별 선택" style="width:110px">
+                                                            <option value="">남자</option>
+															<option value="">여자</option>
+														</select>
+                                                        
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<th scope="row">
+													<span><label for="age">내/외국인 구분</label></span>
+												</th>
+												<td>
+													<div class="td_cont">
+														<select title="내/외국인 선택" style="width:110px">
+                                                            <option value="">내국인</option>
+															<option value="">외국인</option>
+														</select>
+                                                        
+													</div>
+												</td>
+											</tr>
 											<tr>
 												<th scope="row">
 													<span><label for="age">나이</label></span>
@@ -234,12 +267,38 @@
 													<div class="td_cont">
 														<ul class="tbl_point">
                                                             <li>
-                                                                <input type="radio" title="" id="sort01" name="adSort" checked="checked" /><label for="sort01">5년</label>
+                                                                <input type="radio" title="" id="sort01" name="adSort" checked="checked" /><label for="sort01">1년</label>
                                                             </li>
                                                             <li>
-                                                                <input type="radio" title="" id="sort02" name="adSort" /><label for="sort02">1년</label>
+                                                                <input type="radio" title="" id="sort02" name="adSort" /><label for="sort02">3년</label>
+                                                            </li>
+															<li>
+                                                                <input type="radio" title="" id="sort02" name="adSort" /><label for="sort02">5년</label>
+                                                            </li>
+															<li>
+                                                                <input type="radio" title="" id="sort02" name="adSort" /><label for="sort02">탈퇴 시까지</label>
                                                             </li>
                                                         </ul>
+														<span class="text">
+															설정된 개인정보 유효기간 동안 로그인 등 이용이 없으면 휴면계정이 되어 개인정보가 별도 분리 보관, 각종 뉴스레터, 메일, 문자를 수신할 수 없습니다.
+														</span>
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<th scope="row">
+													<span><label for="info_term">광고성 정보 수신</label></span>
+												</th>
+												<td>
+													<div class="td_cont">
+														<ul class="tbl_point">
+															<li>
+																<input type="radio" title="" id="sort01" name="adSort" checked="checked" /><label for="sort01">수신</label>
+															</li>
+															<li>
+																<input type="radio" title="" id="sort02" name="adSort" /><label for="sort02">수신거부</label>
+															</li>
+														</ul>
 													</div>
 												</td>
 											</tr>

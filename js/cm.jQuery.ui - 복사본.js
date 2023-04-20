@@ -510,8 +510,8 @@ $(function(){
 
 	/*배너롤링*/
 	var bannerArry = [
-		{src:'./images/temp/img_banner_temp.png', alt:'기획확인 요망1', dataLink: '#'},
-		{src:'./images/temp/img_banner_temp_2.png', alt:'기획확인 요망2', dataLink: '#'}
+		{src:'./images/temp/img_banner_temp.png', alt:'1', dataLink: '#'},
+		{src:'./images/temp/img_banner_temp_2.png', alt:'2', dataLink: '#'}
 
 	];
 	$.fn.slideCol1 = function(data){
