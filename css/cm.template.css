@@ -4391,13 +4391,13 @@ ul.sub_menu li.on a {
 /* 게임 다운로드 */
 #CJGameDown{width:790px; margin-top:30px;}
 #CJGameDown .dwn h3{display:none}
-#CJGameDown .dwn .bg1{width:100%;height:210px;background-color: #FDFDFD;border:1px solid #ddd;}
+#CJGameDown .dwn .bg1{width:100%;height:230px;background-color: #FDFDFD;border:1px solid #ddd;}
 #CJGameDown .dwn dt a{display:block;width:350px;height:101px;cursor:pointer;margin:0 auto;}
 #CJGameDown .dwn dt a em{display:none}
-#CJGameDown .dwn dd{display:block;color:#666;line-height:19px;text-align: center;margin-top:20px;font-size:16px;color:#000;}
+#CJGameDown .dwn dd{display:block;color:#666;line-height:26px;text-align: center;margin-top:20px;font-size:16px;color:#000;}
 #CJGameDown .dwn dd h4{height:22px;color:#000;font-size:14px;letter-spacing:-1px}
 #CJGameDown .dwn dd a{color:#3366cc;font-weight:bold;letter-spacing:-1px;text-decoration:underline}
-#CJGameDown .dwn .d1{width:475px;margin:0 auto;margin-top:30px;}
+#CJGameDown .dwn .d1{width:700px;margin:0 auto;margin-top:30px;}
 #CJGameDown .dwn .d1 dt a{background:url(../images/btn_download.jpg) 0 0 no-repeat; background-size: contain;}
 
 #CJGameDown .patch{display:none}
