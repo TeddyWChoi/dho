@@ -1494,7 +1494,15 @@
     font-weight: 300;
 }
 
-.ft_info{float:right;}
+.ft_info{width:350px;height:54px;position: relative;float:right;}
+
+.ft_info.dho1{background:url(../images/dho_1.png) no-repeat;}
+.ft_info.dho2{background:url(../images/dho_2.png) no-repeat;}
+/* .ft_info{position:absolute;right:0;top:10px} */
+.ft_info img{border:0;display:block}
+.ft_info span{position:absolute;left:0;width:20px;height:27px;cursor:pointer;text-indent:-1000em;}
+.ft_info .ft_tab1{top:0}
+.ft_info .ft_tab2{top:27px}
 .ft_ci{
   float:left;  
 }

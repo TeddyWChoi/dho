@@ -6,11 +6,20 @@
 /****************************************/
 
 $(function(){
-	
+	$('.ft_tab1').on('click',function(){
+		$('.ft_info').removeClass('dho2')
+		$('.ft_info').addClass('dho1')
+		return false;
+	});//end click
+	$('.ft_tab2').on('click',function(){
+		$('.ft_info').removeClass('dho1')
+		$('.ft_info').addClass('dho2')
+		return false;
+	});//end click
 
 	/*
 		PART :  약관동의 접힘펼침
-		Author : 윤정환
+		
 	*/
 		
 	$('.btn_agree').on('click',function(){
@@ -37,7 +46,7 @@ $(function(){
 
 	/*
 		PART :  약관동의 동의함 선택텍스트 
-		Author : 윤정환
+		
 	*/
 	var $agreeboxInput = $('.agreebox input');
 	var $agreeboxTxt = $agreeboxInput.next();
@@ -108,7 +117,7 @@ $(function(){
 
 	/*
 		PART :  라디오버튼 텍스트 활성화
-		Author : 윤정환
+		
 	*/
 	$('.tbl_point li').eq(0).children().next().addClass('on');
 	$('.tbl_point input').on('click',function(){
@@ -118,7 +127,7 @@ $(function(){
 
 	/*
 		PART :  FAQ
-		Author : 윤정환
+		
 	*/
 
 	var $listFag = $('.list_faq'),
@@ -179,7 +188,7 @@ $(function(){
 
 	/*
 		PART :  우측 안내 드롭다운
-		Author : 윤정환
+		
 	*/
 
 	var $dropTit = $('.tit_drop').find('h3'),
@@ -204,7 +213,7 @@ $(function(){
 
 	/*
 		PART :  레이어 팝업
-		Author : 윤정환
+		
 	*/
 	$(document).on("click",".layer_open",function(event){
 		event.preventDefault ? event.preventDefault() : event.returnValue = false;
@@ -258,7 +267,7 @@ $(function(){
 
 	/*
 		PART :  푸터 드롭다운
-		Author : 윤정환
+		
 	*/
 /** 01.07 수정 **/
 	$('.main').find('.siteMap span').css({'background-position':'0 -27px','color':'#444'});
