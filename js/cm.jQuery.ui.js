@@ -1,8 +1,8 @@
 /****************************************/
-/*	Name: 웰컴론
+/*	Name: 대항해시대 온라인
 /*	PART: java script
 /*	Version: 1.0
-/*	Author: [애드캡슐 퍼블리싱팀] 최웅, 윤정환
+/*	Author: Teddy
 /****************************************/
 
 $(function(){
@@ -488,7 +488,7 @@ $(function(){
 		event.preventDefault ? event.preventDefault() : event.returnValue = false;
 		$btnVideo = $(this);
 		$('#container').append('<div class="overlayerBg"></div>');
-		$('#container').append('<div class="layer_pop_wrap"><div class="layer_header"><p>웰컴론 광고영상</p>	</div><iframe name="ifrMovie" title="웰컴론 유투브 영상" width="720" height="480" src="//www.youtube.com/embed/GRarlVm6F0U" frameborder="0" allowfullscreen="true"></iframe><a href="#" class="layer_close"><span class="hide">레이어팝업 닫기</span></a></div>');
+		$('#container').append('<div class="layer_pop_wrap"><div class="layer_header"><p></p>	</div><iframe name="ifrMovie" title="" width="720" height="480" src="//www.youtube.com/embed/GRarlVm6F0U" frameborder="0" allowfullscreen="true"></iframe><a href="#" class="layer_close"><span class="hide">레이어팝업 닫기</span></a></div>');
 		$('.overlayerBg').css({'width':$(window).width(),'height':$(document).height(),'opacity':"0.6"});
 	
 		var href = '/layerPopup_video.html #layer';

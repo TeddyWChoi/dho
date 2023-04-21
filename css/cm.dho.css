@@ -1081,19 +1081,7 @@
     margin-left: 8px
 }
 
-.main_board .board_list .nickname span:after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    background-image: url(https://static.line.games/pcsgame/pc/image/sprite/sprite-icons.png?v=785l1fesyd);
-    background-position: -468px -96px;
-    width: 1px;
-    height: 12px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%)
-}
+
 
 .main_board .board_list .nickname span:first-child {
     padding-left: 0;
@@ -1140,45 +1128,25 @@
     padding-left: 18px
 }
 
-.main_board .board_list .icon .recommend:after {
-    background-image: url(https://static.line.games/pcsgame/pc/image/sprite/sprite-icons.png?v=785l1fesyd);
-    background-position: -67px -405px;
-    width: 13px;
-    height: 15px
-}
+
 
 .main_board .board_list .icon .decommendation {
     padding-left: 18px
 }
 
-.main_board .board_list .icon .decommendation:after {
-    background-image: url(https://static.line.games/pcsgame/pc/image/sprite/sprite-icons.png?v=785l1fesyd);
-    background-position: -34px -405px;
-    width: 13px;
-    height: 15px
-}
+
 
 .main_board .board_list .icon .comment {
     padding-left: 19px
 }
 
-.main_board .board_list .icon .comment:after {
-    background-image: url(https://static.line.games/pcsgame/pc/image/sprite/sprite-icons.png?v=785l1fesyd);
-    background-position: 0 -405px;
-    width: 14px;
-    height: 15px
-}
+
 
 .main_board .board_list .icon .hits {
     padding-left: 21px
 }
 
-.main_board .board_list .icon .hits:after {
-    background-image: url(https://static.line.games/pcsgame/pc/image/sprite/sprite-icons.png?v=785l1fesyd);
-    background-position: -69px -363px;
-    width: 16px;
-    height: 15px
-}
+
 
 .main_board .board_list .user-nick {
     position: relative;
@@ -1194,19 +1162,7 @@
     overflow: hidden
 }
 
-.main_board .board_list .user-nick:after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    background-image: url(https://static.line.games/pcsgame/pc/image/sprite/sprite-icons.png?v=785l1fesyd);
-    background-position: -468px -96px;
-    width: 1px;
-    height: 12px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%)
-}
+
 
 .main_board .board_list .user-nick:first-child {
     padding-left: 0;
@@ -1253,13 +1209,12 @@
     align-items: center
 }
 
-.main_board .board_list .noti_tit div:first-child span.icon-img {
-    margin-left: 5px;
+.main_board .board_list .noti_tit div:first-child span.icon_img {
+    margin-left: 10px;
     display: inline-block;
     font-size: 0;
-    background-image: url(https://static.line.games/pcsgame/pc/image/sprite/sprite-icons.png?v=785l1fesyd);
-    background-position: -112px -306px;
-    width: 20px;
+    background: url(../images/ico_img.gif) 0 4px no-repeat;
+    width: 31px;
     height: 18px
 }
 
@@ -1284,7 +1239,7 @@
 }
 
 .main_board .board_list.noti_fixed li {
-    background: #f7f7f7
+    background: #f8f8f8
 }
 
 .main_board .board_list.noti_fixed li a,
